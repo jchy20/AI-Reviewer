@@ -22,7 +22,7 @@ conda activate review
 which python
 
 # Navigate to the directory containing the Python script (if it's not in the home directory)
-cd /usr/xtmp/hc387/ai_reviewer/data/semantic_scholar
+cd /usr/xtmp/hc387/ai_reviewer/data/semantic_scholar/processing_code
 
 # Execute the Python script
 python temp.py
