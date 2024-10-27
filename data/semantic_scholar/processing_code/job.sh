@@ -25,4 +25,4 @@ which python
 cd /usr/xtmp/hc387/ai_reviewer/data/semantic_scholar/processing_code
 
 # Execute the Python script
-python temp.py
+python combine.py
