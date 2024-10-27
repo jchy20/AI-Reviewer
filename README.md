@@ -1,3 +1,7 @@
 # AI-Reviewer
 
-3088499 from first round of coarse filter
+### Statistics
+3088499 datapoints from first round of coarse filter
+
+### To combine all filtered files:
+Run temp.py in job.sh
