@@ -7,9 +7,10 @@ from eval.retrieval.kv_store import TextType
 from utils import utils
 
 class E5(KVStore):
-    def __init__(self, index_name: str, model_path: str = "intfloat/e5-large-v2"):
+    def __init__(self, index_name: str, save_as_tensor: bool = False, model_path: str = "intfloat/e5-large-v2"):
         super().__init__(index_name, 'e5')
         self.model_path = model_path
+        self.save_as_tensor = save_as_tensor
         self._model = sentence_transformers.SentenceTransformer(model_path, device="cuda", cache_folder=utils.get_cache_dir()).bfloat16()
     
     def _format_text(self, text: str, type: TextType) -> str:

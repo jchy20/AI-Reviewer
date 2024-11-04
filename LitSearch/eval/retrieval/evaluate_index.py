@@ -22,6 +22,9 @@ def load_index(index_path: str) -> KVStore:
     elif index_type == "grit":
         from eval.retrieval.grit import GRIT
         index = GRIT(None, None).load(index_path)
+    elif index_type == "specter2":
+        from eval.retrieval.specter2 import SPECTER2
+        index = SPECTER2(None, None, None).load(index_path)
     else:
         raise ValueError("Invalid index type")
     return index

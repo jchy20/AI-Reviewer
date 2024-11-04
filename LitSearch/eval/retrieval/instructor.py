@@ -7,11 +7,12 @@ from eval.retrieval.kv_store import KVStore
 from eval.retrieval.kv_store import TextType
 
 class Instructor(KVStore):
-    def __init__(self, index_name: str, key_instruction: str, query_instruction: str, model_path: str = "hkunlp/instructor-xl"):
+    def __init__(self, index_name: str, key_instruction: str, query_instruction: str, save_as_tensor: bool = False, model_path: str = "hkunlp/instructor-xl"):
         super().__init__(index_name, 'instructor')
         self.model_path = model_path
         self.key_instruction = key_instruction
         self.query_instruction = query_instruction
+        self.save_as_tensor = save_as_tensor
         self._model = INSTRUCTOR(model_path, device="cuda", cache_folder=utils.get_cache_dir())
     
     def _format_text(self, text: str, type: TextType) -> List[str]:

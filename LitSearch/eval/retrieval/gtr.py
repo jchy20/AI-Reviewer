@@ -7,9 +7,10 @@ from eval.retrieval.kv_store import TextType
 from utils import utils
 
 class GTR(KVStore):
-    def __init__(self, index_name: str, model_path: str = "sentence-transformers/gtr-t5-large"):
+    def __init__(self, index_name: str, save_as_tensor: bool = False, model_path: str = "sentence-transformers/gtr-t5-large"):
         super().__init__(index_name, 'gtr')
         self.model_path = model_path
+        self.save_as_tensor =  save_as_tensor
         self._model = sentence_transformers.SentenceTransformer(model_path, device="cuda", cache_folder=utils.get_cache_dir())
     
     def _encode_batch(self, texts: List[str], type: TextType, show_progress_bar: bool = True) -> List[Any]:

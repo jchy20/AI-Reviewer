@@ -3,6 +3,7 @@ import json
 from typing import List, Any, Tuple
 from datasets import Dataset
 from utils.openai_utils import OPENAIBaseEngine
+from transformers import PreTrainedTokenizer
 
 ##### file reading and writing #####
 
@@ -188,6 +189,13 @@ def get_clean_citations(item: dict) -> List[int]:
 def get_clean_dict(data: Dataset) -> dict:
     return {get_clean_corpusid(item): item for item in data}
 
+##### reading fields custom_data #####
+
+def get_title_abstract_SEPtoken(item: dict) -> str:
+    title = get_clean_title(item)
+    abstract = get_clean_abstract(item)
+    return f"{title}[SEP]{abstract}"
+
 ##### openai gpt-4 model #####
 
 def get_gpt4_model(model_name: str = "gpt-4-1106-preview", azure: bool = True) -> OPENAIBaseEngine:
@@ -210,3 +218,15 @@ def prompt_gpt4_model(model: OPENAIBaseEngine, prompt: str = None, messages: Lis
 
 def get_cache_dir() -> str:
     return os.environ['HF_HOME']
+
+##### batching and file processing #####
+
+def batch_size_calc(data: list, batch_size: int) -> int:
+    return (len(data) + batch_size - 1) // batch_size
+
+def batch_iterator(data, batch_size):
+    for i in range(0, len(data), batch_size):
+        yield data[i:i + batch_size]
+
+def concat_title_abstract(data: list, tokenizer: PreTrainedTokenizer) -> list:
+    return [d['title'] + tokenizer.sep_token + (d.get('abstract') or '') for d in data]

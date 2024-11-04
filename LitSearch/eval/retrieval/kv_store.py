@@ -3,15 +3,17 @@ import pickle
 from tqdm import tqdm
 from enum import Enum
 from typing import List, Tuple, Any
+import torch
 
 class TextType(Enum):
     KEY = 1
     QUERY = 2
 
 class KVStore:
-    def __init__(self, index_name: str, index_type: str) -> None:
+    def __init__(self, index_name: str, index_type: str, save_as_tensor: bool) -> None:
         self.index_name = index_name
         self.index_type = index_type
+        self.save_as_tensor = save_as_tensor
 
         self.keys = []
         self.encoded_keys = []
@@ -42,6 +44,8 @@ class KVStore:
             self.keys.append(key)
             self.values.append(value)
         self.encoded_keys = self._encode_batch(self.keys, TextType.KEY)
+        if self.save_as_tensor:
+            self.encoded_keys = torch.stack(self.encoded_keys)
 
     def query(self, query_text: str, n: int, return_keys: bool = False) -> List[Any]:
         encoded_query = self._encode(query_text, TextType.QUERY)

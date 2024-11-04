@@ -6,10 +6,11 @@ from eval.retrieval.kv_store import KVStore
 from eval.retrieval.kv_store import TextType
 
 class GRIT(KVStore):
-    def __init__(self, index_name: str, raw_instruction: str, model_path: str = "GritLM/GritLM-7B"):
+    def __init__(self, index_name: str, raw_instruction: str, save_as_tensor: bool = False, model_path: str = "GritLM/GritLM-7B"):
         super().__init__(index_name, 'grit')
         self.model_path = model_path
         self.raw_instruction = raw_instruction
+        self.save_as_tensor = save_as_tensor
         self._model = GritLM(model_path, torch_dtype="auto", device_map="auto", mode="embedding")
     
     def _get_instruction(self, type: TextType) -> str:
