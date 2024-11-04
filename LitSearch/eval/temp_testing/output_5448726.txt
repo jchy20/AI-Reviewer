@@ -1,1100 +1,0 @@
-linux48
-No devices were found
-/home/users/hc387/miniconda3/envs/litsearch/bin/python
-BertAdapterModel has generative capabilities, as `prepare_inputs_for_generation` is explicitly overwritten. However, it doesn't directly inherit from `GenerationMixin`. From 👉v4.50👈 onwards, `PreTrainedModel` will NOT inherit from `GenerationMixin`, and this model will lose the ability to call `generate` and other related functions.
-  - If you're using `trust_remote_code=True`, you can get rid of this warning by loading the model with an auto class. See https://huggingface.co/docs/transformers/en/model_doc/auto#auto-classes
-  - If you are the owner of the model architecture code, please modify your model class such that it inherits from `GenerationMixin` (after `PreTrainedModel`, otherwise you'll get an exception).
-  - If you are not the owner of the model architecture class, please contact the model code owner to update it.
-Fetching 4 files:   0%|          | 0/4 [00:00<?, ?it/s]Fetching 4 files: 100%|██████████| 4/4 [00:00<00:00, 58661.59it/s]
-Processing all files:   0%|          | 0/621 [00:00<?, ?it/s]ERROR:__main__:No specter2 embedding for corpusid: 273174237
-ERROR:__main__:No specter2 embedding for corpusid: 273151859
-ERROR:__main__:No specter2 embedding for corpusid: 273178758
-ERROR:__main__:No specter2 embedding for corpusid: 273168953
-ERROR:__main__:No specter2 embedding for corpusid: 221790321
-ERROR:__main__:No specter2 embedding for corpusid: 273163041
-ERROR:__main__:No specter2 embedding for corpusid: 273174992
-ERROR:__main__:No specter2 embedding for corpusid: 273177131
-ERROR:__main__:No specter2 embedding for corpusid: 273162648
-ERROR:__main__:No specter2 embedding for corpusid: 273165363
-ERROR:__main__:No specter2 embedding for corpusid: 57803175
-ERROR:__main__:No specter2 embedding for corpusid: 252069365
-ERROR:__main__:No specter2 embedding for corpusid: 273162752
-ERROR:__main__:No specter2 embedding for corpusid: 273145772
-ERROR:__main__:No specter2 embedding for corpusid: 272938101
-ERROR:__main__:No specter2 embedding for corpusid: 273173620
-Processing all files:   0%|          | 1/621 [05:30<56:56:17, 330.61s/it]Processing all files:   0%|          | 2/621 [05:32<23:33:02, 136.97s/it]Processing all files:   0%|          | 3/621 [05:35<13:03:31, 76.07s/it] Processing all files:   1%|          | 4/621 [05:36<7:58:18, 46.51s/it] Processing all files:   1%|          | 5/621 [05:36<5:05:55, 29.80s/it]Processing all files:   1%|          | 6/621 [05:40<3:32:06, 20.69s/it]Processing all files:   1%|          | 7/621 [05:42<2:29:36, 14.62s/it]Processing all files:   1%|▏         | 8/621 [05:42<1:42:10, 10.00s/it]Processing all files:   2%|▏         | 10/621 [05:49<1:11:24,  7.01s/it]ERROR:__main__:No specter2 embedding for corpusid: 147373271
-ERROR:__main__:No specter2 embedding for corpusid: 273178904
-ERROR:__main__:No specter2 embedding for corpusid: 273123805
-ERROR:__main__:No specter2 embedding for corpusid: 273148892
-ERROR:__main__:No specter2 embedding for corpusid: 273159284
-ERROR:__main__:No specter2 embedding for corpusid: 273177991
-ERROR:__main__:No specter2 embedding for corpusid: 273179556
-ERROR:__main__:No specter2 embedding for corpusid: 273154594
-ERROR:__main__:No specter2 embedding for corpusid: 273162640
-ERROR:__main__:No specter2 embedding for corpusid: 273162315
-ERROR:__main__:No specter2 embedding for corpusid: 250133757
-ERROR:__main__:No specter2 embedding for corpusid: 273176237
-ERROR:__main__:No specter2 embedding for corpusid: 203841417
-ERROR:__main__:No specter2 embedding for corpusid: 273163787
-ERROR:__main__:No specter2 embedding for corpusid: 273159061
-ERROR:__main__:No specter2 embedding for corpusid: 273156678
-ERROR:__main__:No specter2 embedding for corpusid: 85959630
-Processing all files:   2%|▏         | 11/621 [10:29<12:56:16, 76.35s/it]Processing all files:   2%|▏         | 12/621 [10:34<9:41:12, 57.26s/it] Processing all files:   2%|▏         | 13/621 [10:35<7:04:19, 41.87s/it]Processing all files:   2%|▏         | 14/621 [10:36<5:04:46, 30.13s/it]Processing all files:   2%|▏         | 15/621 [10:39<3:45:51, 22.36s/it]Processing all files:   3%|▎         | 17/621 [10:40<2:05:28, 12.47s/it]Processing all files:   3%|▎         | 18/621 [10:40<1:35:18,  9.48s/it]Processing all files:   3%|▎         | 19/621 [10:41<1:14:45,  7.45s/it]ERROR:__main__:No specter2 embedding for corpusid: 273163242
-Processing all files:   3%|▎         | 20/621 [10:42<55:41,  5.56s/it]  ERROR:__main__:No specter2 embedding for corpusid: 273148827
-ERROR:__main__:No specter2 embedding for corpusid: 273176526
-ERROR:__main__:No specter2 embedding for corpusid: 203741114
-ERROR:__main__:No specter2 embedding for corpusid: 273157821
-ERROR:__main__:No specter2 embedding for corpusid: 273064051
-ERROR:__main__:No specter2 embedding for corpusid: 273170511
-ERROR:__main__:No specter2 embedding for corpusid: 273176045
-ERROR:__main__:No specter2 embedding for corpusid: 273174832
-ERROR:__main__:No specter2 embedding for corpusid: 273162991
-Processing all files:   3%|▎         | 21/621 [13:11<7:33:57, 45.40s/it]ERROR:__main__:No specter2 embedding for corpusid: 273175618
-ERROR:__main__:No specter2 embedding for corpusid: 273033464
-ERROR:__main__:No specter2 embedding for corpusid: 273149787
-ERROR:__main__:No specter2 embedding for corpusid: 249771584
-ERROR:__main__:No specter2 embedding for corpusid: 113844731
-ERROR:__main__:No specter2 embedding for corpusid: 273179027
-ERROR:__main__:No specter2 embedding for corpusid: 273163183
-ERROR:__main__:No specter2 embedding for corpusid: 273164729
-ERROR:__main__:No specter2 embedding for corpusid: 273158316
-ERROR:__main__:No specter2 embedding for corpusid: 273170016
-ERROR:__main__:No specter2 embedding for corpusid: 273175788
-ERROR:__main__:No specter2 embedding for corpusid: 273162745
-ERROR:__main__:No specter2 embedding for corpusid: 273164097
-ERROR:__main__:No specter2 embedding for corpusid: 273162385
-ERROR:__main__:No specter2 embedding for corpusid: 273172395
-Processing all files:   4%|▎         | 22/621 [15:35<12:13:56, 73.52s/it]Processing all files:   4%|▎         | 23/621 [15:40<8:55:46, 53.76s/it] Processing all files:   4%|▍         | 24/621 [15:43<6:26:59, 38.89s/it]Processing all files:   4%|▍         | 25/621 [15:50<4:51:56, 29.39s/it]Processing all files:   4%|▍         | 26/621 [15:54<3:38:47, 22.06s/it]Processing all files:   4%|▍         | 27/621 [15:55<2:34:32, 15.61s/it]ERROR:__main__:No specter2 embedding for corpusid: 273163114
-Processing all files:   5%|▍         | 29/621 [15:55<1:24:58,  8.61s/it]Processing all files:   5%|▍         | 30/621 [16:00<1:14:22,  7.55s/it]ERROR:__main__:No specter2 embedding for corpusid: 272799151
-ERROR:__main__:No specter2 embedding for corpusid: 273178456
-ERROR:__main__:No specter2 embedding for corpusid: 273162766
-ERROR:__main__:No specter2 embedding for corpusid: 273153596
-ERROR:__main__:No specter2 embedding for corpusid: 273164028
-ERROR:__main__:No specter2 embedding for corpusid: 273162725
-Processing all files:   5%|▍         | 31/621 [18:34<7:31:39, 45.93s/it]ERROR:__main__:No specter2 embedding for corpusid: 273163224
-ERROR:__main__:No specter2 embedding for corpusid: 273162981
-ERROR:__main__:No specter2 embedding for corpusid: 270423616
-ERROR:__main__:No specter2 embedding for corpusid: 273163204
-ERROR:__main__:No specter2 embedding for corpusid: 273154425
-ERROR:__main__:No specter2 embedding for corpusid: 196603640
-ERROR:__main__:No specter2 embedding for corpusid: 273163226
-ERROR:__main__:No specter2 embedding for corpusid: 273159614
-ERROR:__main__:No specter2 embedding for corpusid: 208054234
-ERROR:__main__:No specter2 embedding for corpusid: 273161623
-ERROR:__main__:No specter2 embedding for corpusid: 262014748
-ERROR:__main__:No specter2 embedding for corpusid: 273163371
-ERROR:__main__:No specter2 embedding for corpusid: 226479845
-Processing all files:   5%|▌         | 32/621 [21:00<11:55:27, 72.88s/it]Processing all files:   5%|▌         | 33/621 [21:01<8:38:53, 52.95s/it] Processing all files:   5%|▌         | 34/621 [21:06<6:24:21, 39.29s/it]Processing all files:   6%|▌         | 35/621 [21:07<4:35:49, 28.24s/it]ERROR:__main__:No specter2 embedding for corpusid: 250128641
-Processing all files:   6%|▌         | 36/621 [21:22<3:57:19, 24.34s/it]Processing all files:   6%|▌         | 37/621 [21:24<2:52:50, 17.76s/it]Processing all files:   6%|▌         | 38/621 [21:25<2:02:44, 12.63s/it]Processing all files:   6%|▋         | 39/621 [21:38<2:03:07, 12.69s/it]Processing all files:   6%|▋         | 40/621 [21:46<1:49:35, 11.32s/it]ERROR:__main__:No specter2 embedding for corpusid: 90939809
-ERROR:__main__:No specter2 embedding for corpusid: 273175746
-ERROR:__main__:No specter2 embedding for corpusid: 273159106
-ERROR:__main__:No specter2 embedding for corpusid: 273162728
-ERROR:__main__:No specter2 embedding for corpusid: 55469484
-Processing all files:   7%|▋         | 41/621 [23:53<7:25:27, 46.08s/it]ERROR:__main__:No specter2 embedding for corpusid: 56545329
-ERROR:__main__:No specter2 embedding for corpusid: 273177399
-ERROR:__main__:No specter2 embedding for corpusid: 273157972
-ERROR:__main__:No specter2 embedding for corpusid: 273163031
-ERROR:__main__:No specter2 embedding for corpusid: 273163962
-ERROR:__main__:No specter2 embedding for corpusid: 260598423
-ERROR:__main__:No specter2 embedding for corpusid: 255648161
-Processing all files:   7%|▋         | 42/621 [26:18<12:09:58, 75.64s/it]Processing all files:   7%|▋         | 43/621 [26:22<8:41:18, 54.12s/it] Processing all files:   7%|▋         | 44/621 [26:25<6:12:42, 38.76s/it]Processing all files:   7%|▋         | 45/621 [26:29<4:33:13, 28.46s/it]Processing all files:   7%|▋         | 46/621 [26:36<3:29:27, 21.86s/it]Processing all files:   8%|▊         | 47/621 [26:41<2:41:59, 16.93s/it]ERROR:__main__:No specter2 embedding for corpusid: 273162281
-Processing all files:   8%|▊         | 48/621 [26:45<2:02:56, 12.87s/it]ERROR:__main__:No specter2 embedding for corpusid: 273162895
-Processing all files:   8%|▊         | 49/621 [26:52<1:48:42, 11.40s/it]Processing all files:   8%|▊         | 50/621 [26:55<1:22:02,  8.62s/it]ERROR:__main__:No specter2 embedding for corpusid: 273162917
-ERROR:__main__:No specter2 embedding for corpusid: 273163192
-ERROR:__main__:No specter2 embedding for corpusid: 273152604
-ERROR:__main__:No specter2 embedding for corpusid: 273172841
-Processing all files:   8%|▊         | 51/621 [28:47<6:18:06, 39.80s/it]ERROR:__main__:No specter2 embedding for corpusid: 273162864
-ERROR:__main__:No specter2 embedding for corpusid: 273157486
-ERROR:__main__:No specter2 embedding for corpusid: 273159825
-ERROR:__main__:No specter2 embedding for corpusid: 271090168
-Processing all files:   8%|▊         | 52/621 [30:00<7:51:53, 49.76s/it]ERROR:__main__:No specter2 embedding for corpusid: 273179046
-ERROR:__main__:No specter2 embedding for corpusid: 197876902
-ERROR:__main__:No specter2 embedding for corpusid: 272820086
-Processing all files:   9%|▊         | 53/621 [31:16<9:06:21, 57.71s/it]Processing all files:   9%|▊         | 54/621 [31:17<6:23:13, 40.55s/it]Processing all files:   9%|▉         | 55/621 [31:19<4:32:26, 28.88s/it]Processing all files:   9%|▉         | 56/621 [31:29<3:39:14, 23.28s/it]Processing all files:   9%|▉         | 57/621 [31:30<2:37:46, 16.78s/it]Processing all files:   9%|▉         | 58/621 [31:37<2:09:17, 13.78s/it]ERROR:__main__:No specter2 embedding for corpusid: 273148738
-Processing all files:  10%|▉         | 59/621 [31:42<1:44:47, 11.19s/it]Processing all files:  10%|▉         | 60/621 [31:47<1:25:10,  9.11s/it]ERROR:__main__:No specter2 embedding for corpusid: 273172468
-ERROR:__main__:No specter2 embedding for corpusid: 272952212
-ERROR:__main__:No specter2 embedding for corpusid: 273158256
-ERROR:__main__:No specter2 embedding for corpusid: 273163580
-ERROR:__main__:No specter2 embedding for corpusid: 273163714
-ERROR:__main__:No specter2 embedding for corpusid: 273162788
-ERROR:__main__:No specter2 embedding for corpusid: 225670206
-ERROR:__main__:No specter2 embedding for corpusid: 273177219
-ERROR:__main__:No specter2 embedding for corpusid: 273173827
-ERROR:__main__:No specter2 embedding for corpusid: 273163356
-ERROR:__main__:No specter2 embedding for corpusid: 273163154
-ERROR:__main__:No specter2 embedding for corpusid: 271953869
-Processing all files:  10%|▉         | 61/621 [33:51<6:48:56, 43.82s/it]ERROR:__main__:No specter2 embedding for corpusid: 273175565
-ERROR:__main__:No specter2 embedding for corpusid: 273165835
-ERROR:__main__:No specter2 embedding for corpusid: 84930377
-ERROR:__main__:No specter2 embedding for corpusid: 273146532
-Processing all files:  10%|▉         | 62/621 [35:10<8:24:27, 54.15s/it]Processing all files:  10%|█         | 63/621 [35:17<6:11:58, 40.00s/it]Processing all files:  10%|█         | 64/621 [35:18<4:23:56, 28.43s/it]ERROR:__main__:No specter2 embedding for corpusid: 273154118
-ERROR:__main__:No specter2 embedding for corpusid: 272998144
-ERROR:__main__:No specter2 embedding for corpusid: 273165991
-ERROR:__main__:No specter2 embedding for corpusid: 273162461
-ERROR:__main__:No specter2 embedding for corpusid: 273148252
-ERROR:__main__:No specter2 embedding for corpusid: 273162020
-Processing all files:  10%|█         | 65/621 [36:24<6:06:35, 39.56s/it]Processing all files:  11%|█         | 66/621 [36:32<4:39:59, 30.27s/it]Processing all files:  11%|█         | 67/621 [36:37<3:27:48, 22.51s/it]Processing all files:  11%|█         | 68/621 [36:41<2:36:06, 16.94s/it]Processing all files:  11%|█         | 69/621 [36:45<2:02:17, 13.29s/it]Processing all files:  11%|█▏        | 70/621 [36:47<1:31:08,  9.92s/it]ERROR:__main__:No specter2 embedding for corpusid: 269064640
-ERROR:__main__:No specter2 embedding for corpusid: 273160469
-ERROR:__main__:No specter2 embedding for corpusid: 82875245
-ERROR:__main__:No specter2 embedding for corpusid: 273063257
-ERROR:__main__:No specter2 embedding for corpusid: 273178774
-ERROR:__main__:No specter2 embedding for corpusid: 273162065
-ERROR:__main__:No specter2 embedding for corpusid: 237463027
-ERROR:__main__:No specter2 embedding for corpusid: 273162935
-ERROR:__main__:No specter2 embedding for corpusid: 273160635
-ERROR:__main__:No specter2 embedding for corpusid: 144658647
-Processing all files:  11%|█▏        | 71/621 [38:49<6:39:22, 43.57s/it]ERROR:__main__:No specter2 embedding for corpusid: 273159562
-ERROR:__main__:No specter2 embedding for corpusid: 272937455
-Processing all files:  12%|█▏        | 72/621 [40:06<8:08:04, 53.34s/it]Processing all files:  12%|█▏        | 73/621 [40:12<5:59:05, 39.32s/it]Processing all files:  12%|█▏        | 74/621 [40:14<4:16:56, 28.18s/it]ERROR:__main__:No specter2 embedding for corpusid: 273164705
-ERROR:__main__:No specter2 embedding for corpusid: 273171663
-ERROR:__main__:No specter2 embedding for corpusid: 273154371
-ERROR:__main__:No specter2 embedding for corpusid: 273174599
-Processing all files:  12%|█▏        | 75/621 [41:24<6:08:18, 40.47s/it]ERROR:__main__:No specter2 embedding for corpusid: 236153729
-Processing all files:  12%|█▏        | 76/621 [41:31<4:37:05, 30.51s/it]Processing all files:  12%|█▏        | 77/621 [41:32<3:15:27, 21.56s/it]Processing all files:  13%|█▎        | 78/621 [41:38<2:34:11, 17.04s/it]Processing all files:  13%|█▎        | 79/621 [41:42<1:58:53, 13.16s/it]Processing all files:  13%|█▎        | 80/621 [41:42<1:23:41,  9.28s/it]ERROR:__main__:No specter2 embedding for corpusid: 272447500
-ERROR:__main__:No specter2 embedding for corpusid: 273018055
-ERROR:__main__:No specter2 embedding for corpusid: 273165862
-ERROR:__main__:No specter2 embedding for corpusid: 273176444
-ERROR:__main__:No specter2 embedding for corpusid: 272688067
-ERROR:__main__:No specter2 embedding for corpusid: 69055462
-ERROR:__main__:No specter2 embedding for corpusid: 273159437
-ERROR:__main__:No specter2 embedding for corpusid: 273162424
-Processing all files:  13%|█▎        | 81/621 [43:47<6:33:56, 43.77s/it]ERROR:__main__:No specter2 embedding for corpusid: 273165867
-ERROR:__main__:No specter2 embedding for corpusid: 273057192
-ERROR:__main__:No specter2 embedding for corpusid: 273162530
-ERROR:__main__:No specter2 embedding for corpusid: 273171341
-Processing all files:  13%|█▎        | 82/621 [45:03<8:01:16, 53.57s/it]Processing all files:  13%|█▎        | 83/621 [45:14<6:05:38, 40.78s/it]Processing all files:  14%|█▎        | 84/621 [45:15<4:17:34, 28.78s/it]ERROR:__main__:No specter2 embedding for corpusid: 273148069
-ERROR:__main__:No specter2 embedding for corpusid: 273159254
-ERROR:__main__:No specter2 embedding for corpusid: 81603149
-ERROR:__main__:No specter2 embedding for corpusid: 272777630
-ERROR:__main__:No specter2 embedding for corpusid: 273179696
-ERROR:__main__:No specter2 embedding for corpusid: 273133495
-ERROR:__main__:No specter2 embedding for corpusid: 273157429
-ERROR:__main__:No specter2 embedding for corpusid: 92402162
-Processing all files:  14%|█▎        | 85/621 [46:28<6:15:41, 42.06s/it]Processing all files:  14%|█▍        | 86/621 [46:36<4:44:38, 31.92s/it]Processing all files:  14%|█▍        | 87/621 [46:38<3:25:14, 23.06s/it]Processing all files:  14%|█▍        | 88/621 [46:44<2:38:32, 17.85s/it]Processing all files:  14%|█▍        | 89/621 [46:49<2:04:31, 14.05s/it]Processing all files:  14%|█▍        | 90/621 [46:58<1:50:03, 12.44s/it]ERROR:__main__:No specter2 embedding for corpusid: 207844173
-ERROR:__main__:No specter2 embedding for corpusid: 273165480
-ERROR:__main__:No specter2 embedding for corpusid: 271293731
-ERROR:__main__:No specter2 embedding for corpusid: 154363889
-ERROR:__main__:No specter2 embedding for corpusid: 273160663
-ERROR:__main__:No specter2 embedding for corpusid: 273037663
-Processing all files:  15%|█▍        | 91/621 [48:47<6:06:07, 41.45s/it]ERROR:__main__:No specter2 embedding for corpusid: 273178779
-ERROR:__main__:No specter2 embedding for corpusid: 273153212
-Processing all files:  15%|█▍        | 92/621 [50:01<7:31:06, 51.16s/it]Processing all files:  15%|█▍        | 93/621 [50:18<5:59:03, 40.80s/it]Processing all files:  15%|█▌        | 94/621 [50:18<4:13:00, 28.81s/it]ERROR:__main__:No specter2 embedding for corpusid: 251906258
-ERROR:__main__:No specter2 embedding for corpusid: 132629680
-ERROR:__main__:No specter2 embedding for corpusid: 273175947
-ERROR:__main__:No specter2 embedding for corpusid: 273162776
-Processing all files:  15%|█▌        | 95/621 [51:26<5:55:27, 40.55s/it]Processing all files:  15%|█▌        | 96/621 [51:34<4:28:47, 30.72s/it]Processing all files:  16%|█▌        | 97/621 [51:36<3:13:29, 22.15s/it]ERROR:__main__:No specter2 embedding for corpusid: 273165928
-ERROR:__main__:No specter2 embedding for corpusid: 273159009
-Processing all files:  16%|█▌        | 98/621 [51:42<2:29:12, 17.12s/it]Processing all files:  16%|█▌        | 99/621 [51:46<1:56:19, 13.37s/it]Processing all files:  16%|█▌        | 100/621 [51:59<1:53:24, 13.06s/it]ERROR:__main__:No specter2 embedding for corpusid: 273154139
-ERROR:__main__:No specter2 embedding for corpusid: 273162483
-ERROR:__main__:No specter2 embedding for corpusid: 273179672
-ERROR:__main__:No specter2 embedding for corpusid: 83553136
-ERROR:__main__:No specter2 embedding for corpusid: 273165135
-ERROR:__main__:No specter2 embedding for corpusid: 241087444
-ERROR:__main__:No specter2 embedding for corpusid: 273176933
-Processing all files:  16%|█▋        | 101/621 [53:47<6:00:04, 41.55s/it]ERROR:__main__:No specter2 embedding for corpusid: 273178241
-ERROR:__main__:No specter2 embedding for corpusid: 273162792
-ERROR:__main__:No specter2 embedding for corpusid: 272866489
-Processing all files:  16%|█▋        | 102/621 [54:59<7:19:53, 50.85s/it]Processing all files:  17%|█▋        | 103/621 [55:13<5:42:49, 39.71s/it]Processing all files:  17%|█▋        | 104/621 [55:17<4:09:34, 28.96s/it]ERROR:__main__:No specter2 embedding for corpusid: 271651985
-ERROR:__main__:No specter2 embedding for corpusid: 272888803
-ERROR:__main__:No specter2 embedding for corpusid: 273162376
-ERROR:__main__:No specter2 embedding for corpusid: 251886798
-ERROR:__main__:No specter2 embedding for corpusid: 273169090
-ERROR:__main__:No specter2 embedding for corpusid: 273179395
-Processing all files:  17%|█▋        | 105/621 [56:24<5:47:43, 40.43s/it]ERROR:__main__:No specter2 embedding for corpusid: 252049351
-Processing all files:  17%|█▋        | 106/621 [56:32<4:24:35, 30.83s/it]Processing all files:  17%|█▋        | 107/621 [56:34<3:07:41, 21.91s/it]Processing all files:  17%|█▋        | 108/621 [56:35<2:14:05, 15.68s/it]ERROR:__main__:No specter2 embedding for corpusid: 263858540
-Processing all files:  18%|█▊        | 109/621 [56:37<1:38:27, 11.54s/it]ERROR:__main__:No specter2 embedding for corpusid: 272935638
-ERROR:__main__:No specter2 embedding for corpusid: 273162239
-Processing all files:  18%|█▊        | 110/621 [56:52<1:49:16, 12.83s/it]ERROR:__main__:No specter2 embedding for corpusid: 229359376
-ERROR:__main__:No specter2 embedding for corpusid: 273150320
-ERROR:__main__:No specter2 embedding for corpusid: 273162870
-ERROR:__main__:No specter2 embedding for corpusid: 197766284
-ERROR:__main__:No specter2 embedding for corpusid: 273090013
-ERROR:__main__:No specter2 embedding for corpusid: 273149575
-ERROR:__main__:No specter2 embedding for corpusid: 273162622
-Processing all files:  18%|█▊        | 111/621 [58:40<5:51:11, 41.32s/it]ERROR:__main__:No specter2 embedding for corpusid: 273163229
-Processing all files:  18%|█▊        | 112/621 [58:52<4:34:28, 32.35s/it]ERROR:__main__:No specter2 embedding for corpusid: 273179794
-ERROR:__main__:No specter2 embedding for corpusid: 273156019
-ERROR:__main__:No specter2 embedding for corpusid: 273147972
-ERROR:__main__:No specter2 embedding for corpusid: 260596485
-ERROR:__main__:No specter2 embedding for corpusid: 273174876
-ERROR:__main__:No specter2 embedding for corpusid: 240517508
-ERROR:__main__:No specter2 embedding for corpusid: 273146556
-ERROR:__main__:No specter2 embedding for corpusid: 273162520
-Processing all files:  18%|█▊        | 113/621 [1:00:16<6:47:05, 48.08s/it]Processing all files:  18%|█▊        | 114/621 [1:00:21<4:56:41, 35.11s/it]ERROR:__main__:No specter2 embedding for corpusid: 273163166
-ERROR:__main__:No specter2 embedding for corpusid: 271931285
-ERROR:__main__:No specter2 embedding for corpusid: 273162602
-ERROR:__main__:No specter2 embedding for corpusid: 272518555
-Processing all files:  19%|█▊        | 115/621 [1:01:22<6:01:39, 42.89s/it]ERROR:__main__:No specter2 embedding for corpusid: 273163096
-Processing all files:  19%|█▊        | 116/621 [1:01:35<4:46:00, 33.98s/it]Processing all files:  19%|█▉        | 117/621 [1:01:36<3:20:53, 23.92s/it]Processing all files:  19%|█▉        | 118/621 [1:01:37<2:23:56, 17.17s/it]Processing all files:  19%|█▉        | 119/621 [1:01:39<1:45:45, 12.64s/it]ERROR:__main__:No specter2 embedding for corpusid: 273172763
-Processing all files:  19%|█▉        | 120/621 [1:01:59<2:03:51, 14.83s/it]ERROR:__main__:No specter2 embedding for corpusid: 273157683
-Processing all files:  19%|█▉        | 121/621 [1:03:38<5:34:12, 40.11s/it]Processing all files:  20%|█▉        | 122/621 [1:03:48<4:17:26, 30.96s/it]ERROR:__main__:No specter2 embedding for corpusid: 272522726
-ERROR:__main__:No specter2 embedding for corpusid: 273156753
-ERROR:__main__:No specter2 embedding for corpusid: 273178117
-ERROR:__main__:No specter2 embedding for corpusid: 272937285
-ERROR:__main__:No specter2 embedding for corpusid: 273161791
-Processing all files:  20%|█▉        | 123/621 [1:05:15<6:36:44, 47.80s/it]Processing all files:  20%|█▉        | 124/621 [1:05:20<4:49:05, 34.90s/it]Processing all files:  20%|██        | 125/621 [1:06:18<5:45:32, 41.80s/it]ERROR:__main__:No specter2 embedding for corpusid: 273179615
-Processing all files:  20%|██        | 126/621 [1:06:35<4:44:19, 34.46s/it]Processing all files:  20%|██        | 127/621 [1:06:36<3:21:15, 24.44s/it]Processing all files:  21%|██        | 128/621 [1:06:37<2:21:50, 17.26s/it]Processing all files:  21%|██        | 129/621 [1:06:39<1:44:15, 12.71s/it]Processing all files:  21%|██        | 130/621 [1:06:52<1:45:24, 12.88s/it]ERROR:__main__:No specter2 embedding for corpusid: 273150087
-ERROR:__main__:No specter2 embedding for corpusid: 273160734
-ERROR:__main__:No specter2 embedding for corpusid: 250632067
-ERROR:__main__:No specter2 embedding for corpusid: 273151224
-ERROR:__main__:No specter2 embedding for corpusid: 273158841
-ERROR:__main__:No specter2 embedding for corpusid: 273177292
-ERROR:__main__:No specter2 embedding for corpusid: 273163030
-ERROR:__main__:No specter2 embedding for corpusid: 273162487
-Processing all files:  21%|██        | 131/621 [1:08:48<5:57:44, 43.80s/it]ERROR:__main__:No specter2 embedding for corpusid: 264883492
-Processing all files:  21%|██▏       | 132/621 [1:09:00<4:38:01, 34.11s/it]ERROR:__main__:No specter2 embedding for corpusid: 236629624
-ERROR:__main__:No specter2 embedding for corpusid: 273162259
-ERROR:__main__:No specter2 embedding for corpusid: 273162312
-Processing all files:  21%|██▏       | 133/621 [1:10:30<6:54:47, 51.00s/it]ERROR:__main__:No specter2 embedding for corpusid: 273146483
-Processing all files:  22%|██▏       | 134/621 [1:10:36<5:04:48, 37.55s/it]ERROR:__main__:No specter2 embedding for corpusid: 250059265
-ERROR:__main__:No specter2 embedding for corpusid: 146959970
-ERROR:__main__:No specter2 embedding for corpusid: 273152973
-ERROR:__main__:No specter2 embedding for corpusid: 131272103
-Processing all files:  22%|██▏       | 135/621 [1:11:37<6:00:53, 44.55s/it]Processing all files:  22%|██▏       | 136/621 [1:11:54<4:53:23, 36.30s/it]Processing all files:  22%|██▏       | 137/621 [1:12:00<3:39:52, 27.26s/it]ERROR:__main__:No specter2 embedding for corpusid: 272812318
-Processing all files:  22%|██▏       | 138/621 [1:12:02<2:38:18, 19.67s/it]ERROR:__main__:No specter2 embedding for corpusid: 272916454
-ERROR:__main__:No specter2 embedding for corpusid: 273162261
-ERROR:__main__:No specter2 embedding for corpusid: 273169258
-ERROR:__main__:No specter2 embedding for corpusid: 273165243
-Processing all files:  23%|██▎       | 141/621 [1:14:00<4:05:23, 30.67s/it]Processing all files:  23%|██▎       | 142/621 [1:14:17<3:42:38, 27.89s/it]ERROR:__main__:No specter2 embedding for corpusid: 273162913
-ERROR:__main__:No specter2 embedding for corpusid: 273176905
-ERROR:__main__:No specter2 embedding for corpusid: 273166542
-ERROR:__main__:No specter2 embedding for corpusid: 273175914
-Processing all files:  23%|██▎       | 143/621 [1:15:45<5:33:05, 41.81s/it]Processing all files:  23%|██▎       | 144/621 [1:15:50<4:18:56, 32.57s/it]ERROR:__main__:No specter2 embedding for corpusid: 273145441
-ERROR:__main__:No specter2 embedding for corpusid: 103831854
-Processing all files:  23%|██▎       | 145/621 [1:16:48<5:11:02, 39.21s/it]Processing all files:  24%|██▎       | 146/621 [1:17:04<4:20:34, 32.91s/it]Processing all files:  24%|██▎       | 147/621 [1:17:14<3:29:23, 26.50s/it]Processing all files:  24%|██▍       | 148/621 [1:17:19<2:39:33, 20.24s/it]Processing all files:  24%|██▍       | 149/621 [1:17:22<2:00:43, 15.35s/it]Processing all files:  24%|██▍       | 150/621 [1:17:23<1:28:25, 11.26s/it]ERROR:__main__:No specter2 embedding for corpusid: 273179172
-ERROR:__main__:No specter2 embedding for corpusid: 273152100
-ERROR:__main__:No specter2 embedding for corpusid: 272772590
-ERROR:__main__:No specter2 embedding for corpusid: 272460563
-ERROR:__main__:No specter2 embedding for corpusid: 272774480
-ERROR:__main__:No specter2 embedding for corpusid: 273163203
-ERROR:__main__:No specter2 embedding for corpusid: 272202070
-ERROR:__main__:No specter2 embedding for corpusid: 229314507
-Processing all files:  24%|██▍       | 151/621 [1:19:01<4:48:27, 36.82s/it]ERROR:__main__:No specter2 embedding for corpusid: 272778232
-Processing all files:  24%|██▍       | 152/621 [1:19:15<3:53:56, 29.93s/it]ERROR:__main__:No specter2 embedding for corpusid: 273164383
-ERROR:__main__:No specter2 embedding for corpusid: 272800664
-ERROR:__main__:No specter2 embedding for corpusid: 273172225
-ERROR:__main__:No specter2 embedding for corpusid: 263291743
-ERROR:__main__:No specter2 embedding for corpusid: 273161134
-ERROR:__main__:No specter2 embedding for corpusid: 168745715
-ERROR:__main__:No specter2 embedding for corpusid: 273163233
-Processing all files:  25%|██▍       | 153/621 [1:20:47<6:17:54, 48.45s/it]ERROR:__main__:No specter2 embedding for corpusid: 273175469
-Processing all files:  25%|██▍       | 154/621 [1:20:49<4:28:53, 34.55s/it]ERROR:__main__:No specter2 embedding for corpusid: 74635885
-Processing all files:  25%|██▍       | 155/621 [1:21:16<4:10:08, 32.21s/it]ERROR:__main__:No specter2 embedding for corpusid: 273163273
-ERROR:__main__:No specter2 embedding for corpusid: 273150098
-ERROR:__main__:No specter2 embedding for corpusid: 249725581
-Processing all files:  25%|██▌       | 156/621 [1:21:51<4:16:26, 33.09s/it]Processing all files:  25%|██▌       | 157/621 [1:22:08<3:38:22, 28.24s/it]ERROR:__main__:No specter2 embedding for corpusid: 85642474
-Processing all files:  25%|██▌       | 158/621 [1:22:14<2:47:45, 21.74s/it]Processing all files:  26%|██▌       | 159/621 [1:22:20<2:11:22, 17.06s/it]Processing all files:  26%|██▌       | 160/621 [1:22:26<1:45:03, 13.67s/it]ERROR:__main__:No specter2 embedding for corpusid: 273162664
-ERROR:__main__:No specter2 embedding for corpusid: 273149106
-ERROR:__main__:No specter2 embedding for corpusid: 273166584
-ERROR:__main__:No specter2 embedding for corpusid: 273146049
-ERROR:__main__:No specter2 embedding for corpusid: 272436970
-Processing all files:  26%|██▌       | 161/621 [1:23:59<4:46:44, 37.40s/it]Processing all files:  26%|██▌       | 162/621 [1:24:12<3:50:11, 30.09s/it]ERROR:__main__:No specter2 embedding for corpusid: 273178133
-ERROR:__main__:No specter2 embedding for corpusid: 273162881
-ERROR:__main__:No specter2 embedding for corpusid: 272937135
-ERROR:__main__:No specter2 embedding for corpusid: 273158206
-ERROR:__main__:No specter2 embedding for corpusid: 196580900
-Processing all files:  26%|██▌       | 163/621 [1:25:42<6:07:40, 48.17s/it]Processing all files:  26%|██▋       | 164/621 [1:25:43<4:18:18, 33.91s/it]Processing all files:  27%|██▋       | 165/621 [1:26:10<4:01:26, 31.77s/it]ERROR:__main__:No specter2 embedding for corpusid: 273148894
-ERROR:__main__:No specter2 embedding for corpusid: 273155078
-ERROR:__main__:No specter2 embedding for corpusid: 55213473
-ERROR:__main__:No specter2 embedding for corpusid: 273163379
-Processing all files:  27%|██▋       | 166/621 [1:26:44<4:06:53, 32.56s/it]ERROR:__main__:No specter2 embedding for corpusid: 273164137
-ERROR:__main__:No specter2 embedding for corpusid: 273162915
-Processing all files:  27%|██▋       | 167/621 [1:27:07<3:45:02, 29.74s/it]ERROR:__main__:No specter2 embedding for corpusid: 273157352
-Processing all files:  27%|██▋       | 168/621 [1:27:09<2:41:30, 21.39s/it]Processing all files:  27%|██▋       | 169/621 [1:27:21<2:20:20, 18.63s/it]Processing all files:  27%|██▋       | 170/621 [1:27:22<1:39:41, 13.26s/it]ERROR:__main__:No specter2 embedding for corpusid: 273147859
-ERROR:__main__:No specter2 embedding for corpusid: 201081160
-ERROR:__main__:No specter2 embedding for corpusid: 218787414
-ERROR:__main__:No specter2 embedding for corpusid: 273176518
-ERROR:__main__:No specter2 embedding for corpusid: 229286030
-ERROR:__main__:No specter2 embedding for corpusid: 273152793
-ERROR:__main__:No specter2 embedding for corpusid: 273179893
-ERROR:__main__:No specter2 embedding for corpusid: 273165773
-ERROR:__main__:No specter2 embedding for corpusid: 273159198
-Processing all files:  28%|██▊       | 171/621 [1:28:59<4:47:11, 38.29s/it]ERROR:__main__:No specter2 embedding for corpusid: 273156634
-Processing all files:  28%|██▊       | 172/621 [1:29:08<3:40:33, 29.47s/it]ERROR:__main__:No specter2 embedding for corpusid: 270217954
-ERROR:__main__:No specter2 embedding for corpusid: 273162578
-ERROR:__main__:No specter2 embedding for corpusid: 268030766
-ERROR:__main__:No specter2 embedding for corpusid: 273163142
-ERROR:__main__:No specter2 embedding for corpusid: 273166219
-ERROR:__main__:No specter2 embedding for corpusid: 271931323
-Processing all files:  28%|██▊       | 173/621 [1:30:43<6:06:34, 49.10s/it]Processing all files:  28%|██▊       | 174/621 [1:30:46<4:24:02, 35.44s/it]ERROR:__main__:No specter2 embedding for corpusid: 273175186
-Processing all files:  28%|██▊       | 175/621 [1:31:08<3:52:28, 31.27s/it]ERROR:__main__:No specter2 embedding for corpusid: 273160279
-ERROR:__main__:No specter2 embedding for corpusid: 273175227
-Processing all files:  28%|██▊       | 176/621 [1:31:45<4:05:31, 33.10s/it]ERROR:__main__:No specter2 embedding for corpusid: 273162689
-ERROR:__main__:No specter2 embedding for corpusid: 273144461
-Processing all files:  29%|██▊       | 177/621 [1:32:08<3:42:33, 30.07s/it]Processing all files:  29%|██▊       | 178/621 [1:32:12<2:44:43, 22.31s/it]Processing all files:  29%|██▉       | 179/621 [1:32:22<2:17:19, 18.64s/it]ERROR:__main__:No specter2 embedding for corpusid: 273162551
-Processing all files:  29%|██▉       | 180/621 [1:32:28<1:47:33, 14.63s/it]ERROR:__main__:No specter2 embedding for corpusid: 272451757
-ERROR:__main__:No specter2 embedding for corpusid: 273164994
-ERROR:__main__:No specter2 embedding for corpusid: 273147913
-ERROR:__main__:No specter2 embedding for corpusid: 273176877
-ERROR:__main__:No specter2 embedding for corpusid: 273167449
-Processing all files:  29%|██▉       | 181/621 [1:33:57<4:32:03, 37.10s/it]Processing all files:  29%|██▉       | 182/621 [1:34:05<3:28:00, 28.43s/it]ERROR:__main__:No specter2 embedding for corpusid: 272794309
-ERROR:__main__:No specter2 embedding for corpusid: 273013376
-ERROR:__main__:No specter2 embedding for corpusid: 273157936
-Processing all files:  29%|██▉       | 183/621 [1:35:33<5:36:19, 46.07s/it]Processing all files:  30%|██▉       | 184/621 [1:35:37<4:05:03, 33.65s/it]Processing all files:  30%|██▉       | 185/621 [1:35:44<3:05:00, 25.46s/it]ERROR:__main__:No specter2 embedding for corpusid: 272780615
-Processing all files:  30%|██▉       | 186/621 [1:36:08<3:01:47, 25.07s/it]ERROR:__main__:No specter2 embedding for corpusid: 273176373
-ERROR:__main__:No specter2 embedding for corpusid: 273173920
-ERROR:__main__:No specter2 embedding for corpusid: 273163255
-Processing all files:  30%|███       | 187/621 [1:37:05<4:10:09, 34.59s/it]Processing all files:  30%|███       | 188/621 [1:37:10<3:05:53, 25.76s/it]Processing all files:  30%|███       | 189/621 [1:37:19<2:29:22, 20.75s/it]Processing all files:  31%|███       | 190/621 [1:37:23<1:53:32, 15.81s/it]ERROR:__main__:No specter2 embedding for corpusid: 231100434
-ERROR:__main__:No specter2 embedding for corpusid: 249764707
-Processing all files:  31%|███       | 191/621 [1:38:52<4:30:54, 37.80s/it]ERROR:__main__:No specter2 embedding for corpusid: 273168433
-ERROR:__main__:No specter2 embedding for corpusid: 273162921
-Processing all files:  31%|███       | 192/621 [1:39:00<3:25:03, 28.68s/it]ERROR:__main__:No specter2 embedding for corpusid: 231850484
-ERROR:__main__:No specter2 embedding for corpusid: 273175617
-ERROR:__main__:No specter2 embedding for corpusid: 273163840
-ERROR:__main__:No specter2 embedding for corpusid: 273177482
-ERROR:__main__:No specter2 embedding for corpusid: 273152974
-ERROR:__main__:No specter2 embedding for corpusid: 273180162
-ERROR:__main__:No specter2 embedding for corpusid: 273161330
-Processing all files:  31%|███       | 193/621 [1:40:32<5:40:56, 47.80s/it]ERROR:__main__:No specter2 embedding for corpusid: 273149788
-Processing all files:  31%|███       | 194/621 [1:40:40<4:15:19, 35.88s/it]Processing all files:  31%|███▏      | 195/621 [1:40:41<2:59:27, 25.28s/it]ERROR:__main__:No specter2 embedding for corpusid: 273162360
-ERROR:__main__:No specter2 embedding for corpusid: 273164960
-Processing all files:  32%|███▏      | 196/621 [1:41:05<2:56:36, 24.93s/it]ERROR:__main__:No specter2 embedding for corpusid: 273159142
-ERROR:__main__:No specter2 embedding for corpusid: 273154243
-ERROR:__main__:No specter2 embedding for corpusid: 273175941
-ERROR:__main__:No specter2 embedding for corpusid: 273150905
-ERROR:__main__:No specter2 embedding for corpusid: 273166588
-ERROR:__main__:No specter2 embedding for corpusid: 273130664
-Processing all files:  32%|███▏      | 197/621 [1:42:04<4:09:26, 35.30s/it]Processing all files:  32%|███▏      | 198/621 [1:42:10<3:06:54, 26.51s/it]Processing all files:  32%|███▏      | 199/621 [1:42:19<2:28:17, 21.08s/it]Processing all files:  32%|███▏      | 200/621 [1:42:20<1:47:07, 15.27s/it]ERROR:__main__:No specter2 embedding for corpusid: 273162820
-ERROR:__main__:No specter2 embedding for corpusid: 273175840
-ERROR:__main__:No specter2 embedding for corpusid: 273162346
-ERROR:__main__:No specter2 embedding for corpusid: 273163091
-ERROR:__main__:No specter2 embedding for corpusid: 273176999
-ERROR:__main__:No specter2 embedding for corpusid: 273167674
-Processing all files:  32%|███▏      | 201/621 [1:43:55<4:34:34, 39.23s/it]ERROR:__main__:No specter2 embedding for corpusid: 273162433
-Processing all files:  33%|███▎      | 202/621 [1:43:57<3:14:01, 27.78s/it]ERROR:__main__:No specter2 embedding for corpusid: 273175458
-ERROR:__main__:No specter2 embedding for corpusid: 273163663
-ERROR:__main__:No specter2 embedding for corpusid: 273166440
-Processing all files:  33%|███▎      | 203/621 [1:45:28<5:26:40, 46.89s/it]Processing all files:  33%|███▎      | 204/621 [1:45:38<4:09:50, 35.95s/it]Processing all files:  33%|███▎      | 205/621 [1:45:39<2:54:54, 25.23s/it]ERROR:__main__:No specter2 embedding for corpusid: 273148194
-ERROR:__main__:No specter2 embedding for corpusid: 273177343
-Processing all files:  33%|███▎      | 206/621 [1:45:59<2:44:56, 23.85s/it]ERROR:__main__:No specter2 embedding for corpusid: 273162249
-ERROR:__main__:No specter2 embedding for corpusid: 273163148
-ERROR:__main__:No specter2 embedding for corpusid: 270462641
-ERROR:__main__:No specter2 embedding for corpusid: 273162505
-ERROR:__main__:No specter2 embedding for corpusid: 273178690
-ERROR:__main__:No specter2 embedding for corpusid: 273151846
-ERROR:__main__:No specter2 embedding for corpusid: 272792211
-Processing all files:  33%|███▎      | 207/621 [1:47:04<4:08:11, 35.97s/it]Processing all files:  33%|███▎      | 208/621 [1:47:04<2:54:11, 25.31s/it]Processing all files:  34%|███▎      | 209/621 [1:47:13<2:19:52, 20.37s/it]Processing all files:  34%|███▍      | 210/621 [1:47:19<1:50:29, 16.13s/it]ERROR:__main__:No specter2 embedding for corpusid: 272907576
-ERROR:__main__:No specter2 embedding for corpusid: 268420943
-ERROR:__main__:No specter2 embedding for corpusid: 270941731
-ERROR:__main__:No specter2 embedding for corpusid: 273165228
-ERROR:__main__:No specter2 embedding for corpusid: 251085526
-ERROR:__main__:No specter2 embedding for corpusid: 254091663
-Processing all files:  34%|███▍      | 211/621 [1:48:53<4:29:42, 39.47s/it]Processing all files:  34%|███▍      | 212/621 [1:48:57<3:16:56, 28.89s/it]ERROR:__main__:No specter2 embedding for corpusid: 273162414
-ERROR:__main__:No specter2 embedding for corpusid: 273179213
-ERROR:__main__:No specter2 embedding for corpusid: 273160542
-ERROR:__main__:No specter2 embedding for corpusid: 273167037
-ERROR:__main__:No specter2 embedding for corpusid: 273162350
-ERROR:__main__:No specter2 embedding for corpusid: 273175045
-ERROR:__main__:No specter2 embedding for corpusid: 273148774
-ERROR:__main__:No specter2 embedding for corpusid: 272962313
-Processing all files:  34%|███▍      | 213/621 [1:50:24<5:14:31, 46.25s/it]Processing all files:  34%|███▍      | 214/621 [1:50:41<4:13:56, 37.44s/it]Processing all files:  35%|███▍      | 215/621 [1:50:42<2:59:52, 26.58s/it]Processing all files:  35%|███▍      | 216/621 [1:50:58<2:38:43, 23.51s/it]ERROR:__main__:No specter2 embedding for corpusid: 273150938
-Processing all files:  35%|███▍      | 217/621 [1:52:01<3:56:21, 35.10s/it]Processing all files:  35%|███▌      | 218/621 [1:52:05<2:53:50, 25.88s/it]ERROR:__main__:No specter2 embedding for corpusid: 273162521
-Processing all files:  35%|███▌      | 219/621 [1:52:13<2:17:13, 20.48s/it]Processing all files:  35%|███▌      | 220/621 [1:52:19<1:47:37, 16.10s/it]ERROR:__main__:No specter2 embedding for corpusid: 272442786
-ERROR:__main__:No specter2 embedding for corpusid: 272999104
-ERROR:__main__:No specter2 embedding for corpusid: 272324173
-ERROR:__main__:No specter2 embedding for corpusid: 273159025
-Processing all files:  36%|███▌      | 221/621 [1:53:51<4:20:43, 39.11s/it]Processing all files:  36%|███▌      | 222/621 [1:53:53<3:05:04, 27.83s/it]ERROR:__main__:No specter2 embedding for corpusid: 264500196
-ERROR:__main__:No specter2 embedding for corpusid: 271746170
-ERROR:__main__:No specter2 embedding for corpusid: 273108928
-ERROR:__main__:No specter2 embedding for corpusid: 273178896
-ERROR:__main__:No specter2 embedding for corpusid: 272773469
-ERROR:__main__:No specter2 embedding for corpusid: 273149677
-ERROR:__main__:No specter2 embedding for corpusid: 273163218
-ERROR:__main__:No specter2 embedding for corpusid: 273158685
-Processing all files:  36%|███▌      | 223/621 [1:55:20<5:02:58, 45.67s/it]Processing all files:  36%|███▌      | 224/621 [1:55:37<4:04:15, 36.92s/it]Processing all files:  36%|███▌      | 225/621 [1:55:38<2:53:47, 26.33s/it]ERROR:__main__:No specter2 embedding for corpusid: 273157000
-Processing all files:  36%|███▋      | 226/621 [1:55:53<2:29:18, 22.68s/it]ERROR:__main__:No specter2 embedding for corpusid: 233232652
-ERROR:__main__:No specter2 embedding for corpusid: 273155071
-ERROR:__main__:No specter2 embedding for corpusid: 250012079
-ERROR:__main__:No specter2 embedding for corpusid: 273175633
-ERROR:__main__:No specter2 embedding for corpusid: 37881416
-ERROR:__main__:No specter2 embedding for corpusid: 273178135
-ERROR:__main__:No specter2 embedding for corpusid: 273162994
-ERROR:__main__:No specter2 embedding for corpusid: 273164807
-Processing all files:  37%|███▋      | 227/621 [1:56:56<3:48:55, 34.86s/it]Processing all files:  37%|███▋      | 228/621 [1:57:02<2:52:50, 26.39s/it]Processing all files:  37%|███▋      | 229/621 [1:57:12<2:19:45, 21.39s/it]ERROR:__main__:No specter2 embedding for corpusid: 73930785
-ERROR:__main__:No specter2 embedding for corpusid: 273177632
-Processing all files:  37%|███▋      | 230/621 [1:57:19<1:50:58, 17.03s/it]ERROR:__main__:No specter2 embedding for corpusid: 110490212
-ERROR:__main__:No specter2 embedding for corpusid: 273164999
-ERROR:__main__:No specter2 embedding for corpusid: 273178268
-ERROR:__main__:No specter2 embedding for corpusid: 273149743
-ERROR:__main__:No specter2 embedding for corpusid: 273149923
-Processing all files:  37%|███▋      | 231/621 [1:58:51<4:17:45, 39.65s/it]Processing all files:  37%|███▋      | 232/621 [1:58:55<3:06:30, 28.77s/it]ERROR:__main__:No specter2 embedding for corpusid: 220767306
-ERROR:__main__:No specter2 embedding for corpusid: 273163173
-ERROR:__main__:No specter2 embedding for corpusid: 273155755
-Processing all files:  38%|███▊      | 233/621 [2:00:17<4:49:20, 44.74s/it]ERROR:__main__:No specter2 embedding for corpusid: 273161616
-Processing all files:  38%|███▊      | 234/621 [2:00:33<3:53:15, 36.17s/it]Processing all files:  38%|███▊      | 235/621 [2:00:33<2:43:15, 25.38s/it]Processing all files:  38%|███▊      | 236/621 [2:01:14<3:13:19, 30.13s/it]ERROR:__main__:No specter2 embedding for corpusid: 273163276
-ERROR:__main__:No specter2 embedding for corpusid: 273177585
-ERROR:__main__:No specter2 embedding for corpusid: 273162591
-ERROR:__main__:No specter2 embedding for corpusid: 273160895
-ERROR:__main__:No specter2 embedding for corpusid: 273178681
-Processing all files:  38%|███▊      | 237/621 [2:02:07<3:56:44, 36.99s/it]ERROR:__main__:No specter2 embedding for corpusid: 273165747
-Processing all files:  38%|███▊      | 238/621 [2:02:17<3:03:52, 28.80s/it]Processing all files:  38%|███▊      | 239/621 [2:02:24<2:21:51, 22.28s/it]Processing all files:  39%|███▊      | 240/621 [2:02:33<1:55:18, 18.16s/it]ERROR:__main__:No specter2 embedding for corpusid: 273164016
-ERROR:__main__:No specter2 embedding for corpusid: 273170024
-ERROR:__main__:No specter2 embedding for corpusid: 273163542
-ERROR:__main__:No specter2 embedding for corpusid: 273172717
-ERROR:__main__:No specter2 embedding for corpusid: 86496497
-Processing all files:  39%|███▉      | 241/621 [2:04:03<4:12:07, 39.81s/it]Processing all files:  39%|███▉      | 242/621 [2:04:12<3:13:49, 30.68s/it]ERROR:__main__:No specter2 embedding for corpusid: 273164581
-ERROR:__main__:No specter2 embedding for corpusid: 273161419
-ERROR:__main__:No specter2 embedding for corpusid: 273159594
-ERROR:__main__:No specter2 embedding for corpusid: 273162945
-ERROR:__main__:No specter2 embedding for corpusid: 268064345
-ERROR:__main__:No specter2 embedding for corpusid: 273039614
-ERROR:__main__:No specter2 embedding for corpusid: 273179174
-Processing all files:  39%|███▉      | 243/621 [2:05:31<4:43:43, 45.04s/it]ERROR:__main__:No specter2 embedding for corpusid: 273157978
-Processing all files:  39%|███▉      | 244/621 [2:05:46<3:47:07, 36.15s/it]Processing all files:  39%|███▉      | 245/621 [2:05:51<2:48:07, 26.83s/it]ERROR:__main__:No specter2 embedding for corpusid: 272959831
-Processing all files:  40%|███▉      | 246/621 [2:06:19<2:49:23, 27.10s/it]ERROR:__main__:No specter2 embedding for corpusid: 273148236
-ERROR:__main__:No specter2 embedding for corpusid: 272784921
-Processing all files:  40%|███▉      | 247/621 [2:07:07<3:27:46, 33.33s/it]Processing all files:  40%|███▉      | 248/621 [2:07:14<2:37:19, 25.31s/it]ERROR:__main__:No specter2 embedding for corpusid: 273158834
-Processing all files:  40%|████      | 249/621 [2:07:29<2:19:03, 22.43s/it]Processing all files:  40%|████      | 250/621 [2:07:33<1:44:09, 16.84s/it]ERROR:__main__:No specter2 embedding for corpusid: 273163171
-ERROR:__main__:No specter2 embedding for corpusid: 273179825
-ERROR:__main__:No specter2 embedding for corpusid: 273162567
-ERROR:__main__:No specter2 embedding for corpusid: 249726249
-ERROR:__main__:No specter2 embedding for corpusid: 273158253
-ERROR:__main__:No specter2 embedding for corpusid: 273162606
-ERROR:__main__:No specter2 embedding for corpusid: 273162458
-ERROR:__main__:No specter2 embedding for corpusid: 273175366
-ERROR:__main__:No specter2 embedding for corpusid: 273162933
-ERROR:__main__:No specter2 embedding for corpusid: 273163152
-Processing all files:  40%|████      | 251/621 [2:09:05<4:03:07, 39.43s/it]ERROR:__main__:No specter2 embedding for corpusid: 273159725
-Processing all files:  41%|████      | 252/621 [2:09:16<3:09:03, 30.74s/it]ERROR:__main__:No specter2 embedding for corpusid: 273162716
-ERROR:__main__:No specter2 embedding for corpusid: 141954028
-ERROR:__main__:No specter2 embedding for corpusid: 260591396
-ERROR:__main__:No specter2 embedding for corpusid: 273162722
-ERROR:__main__:No specter2 embedding for corpusid: 273180203
-ERROR:__main__:No specter2 embedding for corpusid: 273149125
-ERROR:__main__:No specter2 embedding for corpusid: 273163084
-ERROR:__main__:No specter2 embedding for corpusid: 273162735
-ERROR:__main__:No specter2 embedding for corpusid: 273155053
-Processing all files:  41%|████      | 253/621 [2:10:39<4:44:09, 46.33s/it]Processing all files:  41%|████      | 254/621 [2:10:55<3:49:06, 37.46s/it]ERROR:__main__:No specter2 embedding for corpusid: 273145732
-Processing all files:  41%|████      | 255/621 [2:10:58<2:44:24, 26.95s/it]Processing all files:  41%|████      | 256/621 [2:11:28<2:49:45, 27.91s/it]ERROR:__main__:No specter2 embedding for corpusid: 273165057
-ERROR:__main__:No specter2 embedding for corpusid: 272773412
-Processing all files:  41%|████▏     | 257/621 [2:12:13<3:20:52, 33.11s/it]Processing all files:  42%|████▏     | 258/621 [2:12:22<2:36:44, 25.91s/it]ERROR:__main__:No specter2 embedding for corpusid: 269496497
-ERROR:__main__:No specter2 embedding for corpusid: 273161434
-ERROR:__main__:No specter2 embedding for corpusid: 273158189
-Processing all files:  42%|████▏     | 259/621 [2:12:39<2:19:59, 23.20s/it]Processing all files:  42%|████▏     | 260/621 [2:12:45<1:47:31, 17.87s/it]ERROR:__main__:No specter2 embedding for corpusid: 273163710
-ERROR:__main__:No specter2 embedding for corpusid: 273127141
-ERROR:__main__:No specter2 embedding for corpusid: 273162590
-ERROR:__main__:No specter2 embedding for corpusid: 272920202
-ERROR:__main__:No specter2 embedding for corpusid: 273148099
-ERROR:__main__:No specter2 embedding for corpusid: 273166088
-Processing all files:  42%|████▏     | 261/621 [2:14:06<3:40:53, 36.82s/it]ERROR:__main__:No specter2 embedding for corpusid: 86261867
-Processing all files:  42%|████▏     | 262/621 [2:14:15<2:51:14, 28.62s/it]ERROR:__main__:No specter2 embedding for corpusid: 273142059
-ERROR:__main__:No specter2 embedding for corpusid: 273160711
-ERROR:__main__:No specter2 embedding for corpusid: 273159659
-Processing all files:  42%|████▏     | 263/621 [2:15:37<4:26:50, 44.72s/it]ERROR:__main__:No specter2 embedding for corpusid: 273163028
-Processing all files:  43%|████▎     | 264/621 [2:15:49<3:27:40, 34.90s/it]Processing all files:  43%|████▎     | 265/621 [2:15:53<2:31:35, 25.55s/it]ERROR:__main__:No specter2 embedding for corpusid: 273163165
-ERROR:__main__:No specter2 embedding for corpusid: 273179197
-ERROR:__main__:No specter2 embedding for corpusid: 273145119
-Processing all files:  43%|████▎     | 266/621 [2:16:26<2:43:37, 27.66s/it]ERROR:__main__:No specter2 embedding for corpusid: 273171069
-ERROR:__main__:No specter2 embedding for corpusid: 273164847
-ERROR:__main__:No specter2 embedding for corpusid: 273086744
-ERROR:__main__:No specter2 embedding for corpusid: 272782878
-ERROR:__main__:No specter2 embedding for corpusid: 273163109
-ERROR:__main__:No specter2 embedding for corpusid: 273178254
-Processing all files:  43%|████▎     | 267/621 [2:17:09<3:11:41, 32.49s/it]Processing all files:  43%|████▎     | 268/621 [2:17:16<2:25:40, 24.76s/it]Processing all files:  43%|████▎     | 269/621 [2:17:36<2:17:18, 23.41s/it]Processing all files:  43%|████▎     | 270/621 [2:17:40<1:43:00, 17.61s/it]ERROR:__main__:No specter2 embedding for corpusid: 273145242
-ERROR:__main__:No specter2 embedding for corpusid: 273148962
-ERROR:__main__:No specter2 embedding for corpusid: 208069628
-ERROR:__main__:No specter2 embedding for corpusid: 273178272
-ERROR:__main__:No specter2 embedding for corpusid: 273172813
-Processing all files:  44%|████▎     | 271/621 [2:19:16<3:59:27, 41.05s/it]ERROR:__main__:No specter2 embedding for corpusid: 273149927
-Processing all files:  44%|████▍     | 272/621 [2:19:31<3:13:00, 33.18s/it]ERROR:__main__:No specter2 embedding for corpusid: 273152921
-ERROR:__main__:No specter2 embedding for corpusid: 273162515
-ERROR:__main__:No specter2 embedding for corpusid: 273166160
-ERROR:__main__:No specter2 embedding for corpusid: 273162499
-ERROR:__main__:No specter2 embedding for corpusid: 273159820
-ERROR:__main__:No specter2 embedding for corpusid: 272201987
-Processing all files:  44%|████▍     | 273/621 [2:21:01<4:50:58, 50.17s/it]Processing all files:  44%|████▍     | 274/621 [2:21:05<3:31:06, 36.50s/it]ERROR:__main__:No specter2 embedding for corpusid: 273162268
-Processing all files:  44%|████▍     | 275/621 [2:21:19<2:50:53, 29.64s/it]ERROR:__main__:No specter2 embedding for corpusid: 272961042
-ERROR:__main__:No specter2 embedding for corpusid: 273153187
-Processing all files:  44%|████▍     | 276/621 [2:21:54<2:59:50, 31.28s/it]ERROR:__main__:No specter2 embedding for corpusid: 272791256
-ERROR:__main__:No specter2 embedding for corpusid: 273162481
-ERROR:__main__:No specter2 embedding for corpusid: 273168905
-ERROR:__main__:No specter2 embedding for corpusid: 272596959
-Processing all files:  45%|████▍     | 277/621 [2:22:37<3:19:00, 34.71s/it]Processing all files:  45%|████▍     | 278/621 [2:22:39<2:22:42, 24.96s/it]ERROR:__main__:No specter2 embedding for corpusid: 198364969
-ERROR:__main__:No specter2 embedding for corpusid: 273163319
-Processing all files:  45%|████▍     | 279/621 [2:23:04<2:22:06, 24.93s/it]ERROR:__main__:No specter2 embedding for corpusid: 143072748
-Processing all files:  45%|████▌     | 280/621 [2:23:12<1:53:39, 20.00s/it]ERROR:__main__:No specter2 embedding for corpusid: 273164714
-ERROR:__main__:No specter2 embedding for corpusid: 273164911
-ERROR:__main__:No specter2 embedding for corpusid: 273154976
-ERROR:__main__:No specter2 embedding for corpusid: 273151348
-Processing all files:  45%|████▌     | 281/621 [2:24:23<3:20:02, 35.30s/it]Processing all files:  45%|████▌     | 282/621 [2:24:42<2:50:37, 30.20s/it]ERROR:__main__:No specter2 embedding for corpusid: 73141779
-ERROR:__main__:No specter2 embedding for corpusid: 273175436
-ERROR:__main__:No specter2 embedding for corpusid: 273162605
-ERROR:__main__:No specter2 embedding for corpusid: 259859099
-ERROR:__main__:No specter2 embedding for corpusid: 252126857
-ERROR:__main__:No specter2 embedding for corpusid: 260589276
-ERROR:__main__:No specter2 embedding for corpusid: 273149948
-Processing all files:  46%|████▌     | 283/621 [2:26:10<4:27:56, 47.56s/it]Processing all files:  46%|████▌     | 284/621 [2:26:13<3:13:08, 34.39s/it]Processing all files:  46%|████▌     | 285/621 [2:26:27<2:38:03, 28.22s/it]ERROR:__main__:No specter2 embedding for corpusid: 273092456
-ERROR:__main__:No specter2 embedding for corpusid: 273176171
-Processing all files:  46%|████▌     | 286/621 [2:27:02<2:47:44, 30.04s/it]ERROR:__main__:No specter2 embedding for corpusid: 260600794
-ERROR:__main__:No specter2 embedding for corpusid: 273174140
-Processing all files:  46%|████▌     | 287/621 [2:27:38<2:57:09, 31.83s/it]Processing all files:  46%|████▋     | 288/621 [2:27:46<2:18:05, 24.88s/it]ERROR:__main__:No specter2 embedding for corpusid: 273065424
-Processing all files:  47%|████▋     | 289/621 [2:28:10<2:15:54, 24.56s/it]Processing all files:  47%|████▋     | 290/621 [2:28:17<1:46:27, 19.30s/it]ERROR:__main__:No specter2 embedding for corpusid: 271915484
-ERROR:__main__:No specter2 embedding for corpusid: 273158656
-ERROR:__main__:No specter2 embedding for corpusid: 272960729
-ERROR:__main__:No specter2 embedding for corpusid: 273163393
-Processing all files:  47%|████▋     | 291/621 [2:29:35<3:22:56, 36.90s/it]ERROR:__main__:No specter2 embedding for corpusid: 273173159
-Processing all files:  47%|████▋     | 292/621 [2:29:56<2:56:49, 32.25s/it]ERROR:__main__:No specter2 embedding for corpusid: 273164977
-ERROR:__main__:No specter2 embedding for corpusid: 273172108
-ERROR:__main__:No specter2 embedding for corpusid: 273156609
-ERROR:__main__:No specter2 embedding for corpusid: 273147242
-ERROR:__main__:No specter2 embedding for corpusid: 248676640
-ERROR:__main__:No specter2 embedding for corpusid: 273149809
-ERROR:__main__:No specter2 embedding for corpusid: 249907348
-ERROR:__main__:No specter2 embedding for corpusid: 222089780
-Processing all files:  47%|████▋     | 293/621 [2:31:36<4:46:36, 52.43s/it]ERROR:__main__:No specter2 embedding for corpusid: 273177934
-Processing all files:  47%|████▋     | 294/621 [2:31:47<3:38:38, 40.12s/it]Processing all files:  48%|████▊     | 295/621 [2:31:57<2:49:00, 31.11s/it]Processing all files:  48%|████▊     | 296/621 [2:32:39<3:05:17, 34.21s/it]ERROR:__main__:No specter2 embedding for corpusid: 273151435
-ERROR:__main__:No specter2 embedding for corpusid: 273167643
-Processing all files:  48%|████▊     | 297/621 [2:33:20<3:16:13, 36.34s/it]ERROR:__main__:No specter2 embedding for corpusid: 273176344
-Processing all files:  48%|████▊     | 298/621 [2:33:22<2:20:31, 26.10s/it]ERROR:__main__:No specter2 embedding for corpusid: 273163239
-Processing all files:  48%|████▊     | 299/621 [2:33:42<2:09:39, 24.16s/it]Processing all files:  48%|████▊     | 300/621 [2:33:49<1:41:15, 18.93s/it]ERROR:__main__:No specter2 embedding for corpusid: 273152456
-ERROR:__main__:No specter2 embedding for corpusid: 84809260
-Processing all files:  48%|████▊     | 301/621 [2:35:11<3:22:40, 38.00s/it]Processing all files:  49%|████▊     | 302/621 [2:35:41<3:08:08, 35.39s/it]ERROR:__main__:No specter2 embedding for corpusid: 230083111
-ERROR:__main__:No specter2 embedding for corpusid: 273166491
-ERROR:__main__:No specter2 embedding for corpusid: 273163115
-ERROR:__main__:No specter2 embedding for corpusid: 273172056
-ERROR:__main__:No specter2 embedding for corpusid: 273162502
-ERROR:__main__:No specter2 embedding for corpusid: 273174478
-ERROR:__main__:No specter2 embedding for corpusid: 272438130
-Processing all files:  49%|████▉     | 303/621 [2:37:11<4:34:52, 51.86s/it]Processing all files:  49%|████▉     | 304/621 [2:37:15<3:17:55, 37.46s/it]Processing all files:  49%|████▉     | 305/621 [2:37:23<2:31:14, 28.72s/it]ERROR:__main__:No specter2 embedding for corpusid: 273171094
-ERROR:__main__:No specter2 embedding for corpusid: 273175720
-Processing all files:  49%|████▉     | 306/621 [2:38:05<2:50:57, 32.56s/it]ERROR:__main__:No specter2 embedding for corpusid: 273162374
-ERROR:__main__:No specter2 embedding for corpusid: 273163143
-ERROR:__main__:No specter2 embedding for corpusid: 273162847
-ERROR:__main__:No specter2 embedding for corpusid: 273162534
-ERROR:__main__:No specter2 embedding for corpusid: 273164094
-Processing all files:  49%|████▉     | 307/621 [2:38:49<3:09:25, 36.20s/it]Processing all files:  50%|████▉     | 308/621 [2:38:50<2:13:41, 25.63s/it]ERROR:__main__:No specter2 embedding for corpusid: 273160536
-Processing all files:  50%|████▉     | 309/621 [2:39:09<2:02:28, 23.55s/it]Processing all files:  50%|████▉     | 310/621 [2:39:25<1:50:39, 21.35s/it]ERROR:__main__:No specter2 embedding for corpusid: 273148026
-ERROR:__main__:No specter2 embedding for corpusid: 260595172
-ERROR:__main__:No specter2 embedding for corpusid: 273159674
-ERROR:__main__:No specter2 embedding for corpusid: 168544080
-ERROR:__main__:No specter2 embedding for corpusid: 273147907
-Processing all files:  50%|█████     | 311/621 [2:40:41<3:14:51, 37.72s/it]ERROR:__main__:No specter2 embedding for corpusid: 273148842
-ERROR:__main__:No specter2 embedding for corpusid: 273162699
-ERROR:__main__:No specter2 embedding for corpusid: 273088607
-Processing all files:  50%|█████     | 312/621 [2:41:07<2:56:44, 34.32s/it]Processing all files:  50%|█████     | 313/621 [2:41:39<2:51:44, 33.46s/it]ERROR:__main__:No specter2 embedding for corpusid: 273152696
-ERROR:__main__:No specter2 embedding for corpusid: 273153415
-Processing all files:  51%|█████     | 314/621 [2:42:41<3:35:30, 42.12s/it]ERROR:__main__:No specter2 embedding for corpusid: 273162442
-Processing all files:  51%|█████     | 315/621 [2:42:47<2:38:44, 31.13s/it]ERROR:__main__:No specter2 embedding for corpusid: 273165221
-Processing all files:  51%|█████     | 316/621 [2:43:29<2:55:54, 34.61s/it]ERROR:__main__:No specter2 embedding for corpusid: 273148108
-ERROR:__main__:No specter2 embedding for corpusid: 273165474
-ERROR:__main__:No specter2 embedding for corpusid: 273178713
-Processing all files:  51%|█████     | 317/621 [2:44:07<3:00:15, 35.58s/it]Processing all files:  51%|█████     | 318/621 [2:44:10<2:09:17, 25.60s/it]Processing all files:  51%|█████▏    | 319/621 [2:44:25<1:53:11, 22.49s/it]ERROR:__main__:No specter2 embedding for corpusid: 272790910
-Processing all files:  52%|█████▏    | 320/621 [2:44:44<1:47:20, 21.40s/it]ERROR:__main__:No specter2 embedding for corpusid: 273166166
-ERROR:__main__:No specter2 embedding for corpusid: 273177581
-Processing all files:  52%|█████▏    | 321/621 [2:45:43<2:43:54, 32.78s/it]Processing all files:  52%|█████▏    | 322/621 [2:46:11<2:36:33, 31.42s/it]ERROR:__main__:No specter2 embedding for corpusid: 273177000
-Processing all files:  52%|█████▏    | 323/621 [2:46:42<2:35:32, 31.32s/it]ERROR:__main__:No specter2 embedding for corpusid: 273154977
-ERROR:__main__:No specter2 embedding for corpusid: 272330328
-ERROR:__main__:No specter2 embedding for corpusid: 273180073
-ERROR:__main__:No specter2 embedding for corpusid: 272439635
-ERROR:__main__:No specter2 embedding for corpusid: 273156320
-Processing all files:  52%|█████▏    | 324/621 [2:47:45<3:21:27, 40.70s/it]Processing all files:  52%|█████▏    | 325/621 [2:47:49<2:26:05, 29.61s/it]Processing all files:  52%|█████▏    | 326/621 [2:48:30<2:42:14, 33.00s/it]ERROR:__main__:No specter2 embedding for corpusid: 273164891
-ERROR:__main__:No specter2 embedding for corpusid: 273179959
-Processing all files:  53%|█████▎    | 327/621 [2:49:10<2:52:03, 35.12s/it]Processing all files:  53%|█████▎    | 328/621 [2:49:12<2:02:57, 25.18s/it]ERROR:__main__:No specter2 embedding for corpusid: 273146781
-Processing all files:  53%|█████▎    | 329/621 [2:49:25<1:45:20, 21.65s/it]ERROR:__main__:No specter2 embedding for corpusid: 273174070
-Processing all files:  53%|█████▎    | 330/621 [2:49:48<1:46:18, 21.92s/it]ERROR:__main__:No specter2 embedding for corpusid: 272805355
-ERROR:__main__:No specter2 embedding for corpusid: 273148399
-ERROR:__main__:No specter2 embedding for corpusid: 273173335
-Processing all files:  53%|█████▎    | 331/621 [2:50:46<2:38:37, 32.82s/it]ERROR:__main__:No specter2 embedding for corpusid: 273162732
-ERROR:__main__:No specter2 embedding for corpusid: 263713387
-Processing all files:  53%|█████▎    | 332/621 [2:51:17<2:36:09, 32.42s/it]ERROR:__main__:No specter2 embedding for corpusid: 273179385
-ERROR:__main__:No specter2 embedding for corpusid: 273179390
-Processing all files:  54%|█████▎    | 333/621 [2:51:49<2:35:01, 32.30s/it]ERROR:__main__:No specter2 embedding for corpusid: 273162639
-ERROR:__main__:No specter2 embedding for corpusid: 273156363
-ERROR:__main__:No specter2 embedding for corpusid: 273162874
-ERROR:__main__:No specter2 embedding for corpusid: 273155452
-ERROR:__main__:No specter2 embedding for corpusid: 273162831
-Processing all files:  54%|█████▍    | 334/621 [2:52:53<3:19:17, 41.66s/it]Processing all files:  54%|█████▍    | 335/621 [2:52:56<2:24:05, 30.23s/it]ERROR:__main__:No specter2 embedding for corpusid: 273148446
-ERROR:__main__:No specter2 embedding for corpusid: 273149112
-Processing all files:  54%|█████▍    | 336/621 [2:53:39<2:41:06, 33.92s/it]ERROR:__main__:No specter2 embedding for corpusid: 249739045
-Processing all files:  54%|█████▍    | 337/621 [2:54:18<2:47:32, 35.40s/it]Processing all files:  55%|█████▍    | 339/621 [2:54:36<1:49:32, 23.31s/it]ERROR:__main__:No specter2 embedding for corpusid: 236616710
-ERROR:__main__:No specter2 embedding for corpusid: 272939322
-ERROR:__main__:No specter2 embedding for corpusid: 273178446
-Processing all files:  55%|█████▍    | 340/621 [2:54:57<1:45:45, 22.58s/it]ERROR:__main__:No specter2 embedding for corpusid: 85419863
-ERROR:__main__:No specter2 embedding for corpusid: 273162715
-ERROR:__main__:No specter2 embedding for corpusid: 273159546
-Processing all files:  55%|█████▍    | 341/621 [2:55:57<2:31:04, 32.37s/it]Processing all files:  55%|█████▌    | 342/621 [2:56:23<2:23:06, 30.78s/it]ERROR:__main__:No specter2 embedding for corpusid: 273163827
-ERROR:__main__:No specter2 embedding for corpusid: 273166858
-ERROR:__main__:No specter2 embedding for corpusid: 273165428
-Processing all files:  55%|█████▌    | 343/621 [2:56:56<2:25:10, 31.33s/it]ERROR:__main__:No specter2 embedding for corpusid: 273148936
-ERROR:__main__:No specter2 embedding for corpusid: 273176152
-ERROR:__main__:No specter2 embedding for corpusid: 117184323
-Processing all files:  55%|█████▌    | 344/621 [2:57:57<3:04:10, 39.89s/it]Processing all files:  56%|█████▌    | 345/621 [2:58:05<2:20:30, 30.55s/it]ERROR:__main__:No specter2 embedding for corpusid: 273149277
-ERROR:__main__:No specter2 embedding for corpusid: 273167223
-ERROR:__main__:No specter2 embedding for corpusid: 268064987
-Processing all files:  56%|█████▌    | 346/621 [2:58:47<2:36:02, 34.05s/it]ERROR:__main__:No specter2 embedding for corpusid: 273158187
-Processing all files:  56%|█████▌    | 347/621 [2:59:23<2:38:00, 34.60s/it]Processing all files:  56%|█████▌    | 348/621 [2:59:25<1:52:52, 24.81s/it]Processing all files:  56%|█████▌    | 349/621 [2:59:43<1:44:05, 22.96s/it]ERROR:__main__:No specter2 embedding for corpusid: 273165116
-ERROR:__main__:No specter2 embedding for corpusid: 273162801
-Processing all files:  56%|█████▋    | 350/621 [3:00:00<1:35:40, 21.18s/it]ERROR:__main__:No specter2 embedding for corpusid: 208031663
-ERROR:__main__:No specter2 embedding for corpusid: 197926543
-ERROR:__main__:No specter2 embedding for corpusid: 273169883
-ERROR:__main__:No specter2 embedding for corpusid: 273175519
-Processing all files:  57%|█████▋    | 351/621 [3:01:00<2:26:35, 32.58s/it]ERROR:__main__:No specter2 embedding for corpusid: 273171953
-ERROR:__main__:No specter2 embedding for corpusid: 273162288
-ERROR:__main__:No specter2 embedding for corpusid: 272451677
-Processing all files:  57%|█████▋    | 352/621 [3:01:29<2:21:18, 31.52s/it]ERROR:__main__:No specter2 embedding for corpusid: 146102853
-Processing all files:  57%|█████▋    | 353/621 [3:02:00<2:20:19, 31.42s/it]ERROR:__main__:No specter2 embedding for corpusid: 273162767
-ERROR:__main__:No specter2 embedding for corpusid: 273162814
-Processing all files:  57%|█████▋    | 354/621 [3:03:01<2:59:04, 40.24s/it]ERROR:__main__:No specter2 embedding for corpusid: 273171024
-Processing all files:  57%|█████▋    | 355/621 [3:03:11<2:18:57, 31.34s/it]ERROR:__main__:No specter2 embedding for corpusid: 273176496
-ERROR:__main__:No specter2 embedding for corpusid: 273149781
-ERROR:__main__:No specter2 embedding for corpusid: 273148925
-Processing all files:  57%|█████▋    | 356/621 [3:03:50<2:28:46, 33.68s/it]ERROR:__main__:No specter2 embedding for corpusid: 273153912
-ERROR:__main__:No specter2 embedding for corpusid: 146331267
-ERROR:__main__:No specter2 embedding for corpusid: 273123092
-ERROR:__main__:No specter2 embedding for corpusid: 273151379
-ERROR:__main__:No specter2 embedding for corpusid: 273168503
-ERROR:__main__:No specter2 embedding for corpusid: 83759621
-Processing all files:  57%|█████▋    | 357/621 [3:04:27<2:31:55, 34.53s/it]Processing all files:  58%|█████▊    | 358/621 [3:04:31<1:51:48, 25.51s/it]ERROR:__main__:No specter2 embedding for corpusid: 273170149
-Processing all files:  58%|█████▊    | 359/621 [3:04:52<1:44:19, 23.89s/it]Processing all files:  58%|█████▊    | 360/621 [3:05:04<1:28:35, 20.37s/it]Processing all files:  58%|█████▊    | 361/621 [3:06:05<2:21:22, 32.63s/it]ERROR:__main__:No specter2 embedding for corpusid: 273178270
-ERROR:__main__:No specter2 embedding for corpusid: 273144315
-Processing all files:  58%|█████▊    | 362/621 [3:06:35<2:18:06, 31.99s/it]ERROR:__main__:No specter2 embedding for corpusid: 272822199
-Processing all files:  58%|█████▊    | 363/621 [3:07:08<2:17:57, 32.09s/it]ERROR:__main__:No specter2 embedding for corpusid: 273162665
-ERROR:__main__:No specter2 embedding for corpusid: 198346027
-ERROR:__main__:No specter2 embedding for corpusid: 273163364
-Processing all files:  59%|█████▊    | 364/621 [3:08:03<2:46:46, 38.94s/it]ERROR:__main__:No specter2 embedding for corpusid: 273167881
-Processing all files:  59%|█████▉    | 365/621 [3:08:20<2:18:59, 32.58s/it]ERROR:__main__:No specter2 embedding for corpusid: 273163686
-ERROR:__main__:No specter2 embedding for corpusid: 250637959
-ERROR:__main__:No specter2 embedding for corpusid: 273178552
-Processing all files:  59%|█████▉    | 366/621 [3:08:57<2:24:02, 33.89s/it]ERROR:__main__:No specter2 embedding for corpusid: 273173245
-Processing all files:  59%|█████▉    | 367/621 [3:09:33<2:26:07, 34.52s/it]Processing all files:  59%|█████▉    | 368/621 [3:09:38<1:48:17, 25.68s/it]Processing all files:  59%|█████▉    | 369/621 [3:10:02<1:45:24, 25.10s/it]Processing all files:  60%|█████▉    | 370/621 [3:10:15<1:29:55, 21.50s/it]ERROR:__main__:No specter2 embedding for corpusid: 273180216
-ERROR:__main__:No specter2 embedding for corpusid: 272944002
-ERROR:__main__:No specter2 embedding for corpusid: 273179747
-ERROR:__main__:No specter2 embedding for corpusid: 273161656
-Processing all files:  60%|█████▉    | 371/621 [3:11:19<2:22:46, 34.26s/it]ERROR:__main__:No specter2 embedding for corpusid: 273152530
-ERROR:__main__:No specter2 embedding for corpusid: 273176571
-ERROR:__main__:No specter2 embedding for corpusid: 249728931
-Processing all files:  60%|█████▉    | 372/621 [3:11:51<2:19:15, 33.56s/it]ERROR:__main__:No specter2 embedding for corpusid: 273148653
-Processing all files:  60%|██████    | 373/621 [3:12:25<2:18:35, 33.53s/it]ERROR:__main__:No specter2 embedding for corpusid: 273156198
-ERROR:__main__:No specter2 embedding for corpusid: 214296990
-ERROR:__main__:No specter2 embedding for corpusid: 273153461
-ERROR:__main__:No specter2 embedding for corpusid: 273160439
-Processing all files:  60%|██████    | 374/621 [3:13:20<2:44:55, 40.06s/it]Processing all files:  60%|██████    | 375/621 [3:13:33<2:10:49, 31.91s/it]ERROR:__main__:No specter2 embedding for corpusid: 273162404
-ERROR:__main__:No specter2 embedding for corpusid: 245724120
-ERROR:__main__:No specter2 embedding for corpusid: 273153982
-ERROR:__main__:No specter2 embedding for corpusid: 273159865
-Processing all files:  61%|██████    | 376/621 [3:14:13<2:19:52, 34.26s/it]ERROR:__main__:No specter2 embedding for corpusid: 208058562
-ERROR:__main__:No specter2 embedding for corpusid: 273162267
-Processing all files:  61%|██████    | 377/621 [3:14:40<2:10:33, 32.10s/it]Processing all files:  61%|██████    | 378/621 [3:14:49<1:41:56, 25.17s/it]ERROR:__main__:No specter2 embedding for corpusid: 238709877
-Processing all files:  61%|██████    | 379/621 [3:15:09<1:35:31, 23.68s/it]ERROR:__main__:No specter2 embedding for corpusid: 272790027
-Processing all files:  61%|██████    | 380/621 [3:15:23<1:23:38, 20.82s/it]ERROR:__main__:No specter2 embedding for corpusid: 273159612
-ERROR:__main__:No specter2 embedding for corpusid: 273166387
-Processing all files:  61%|██████▏   | 381/621 [3:16:25<2:12:27, 33.11s/it]ERROR:__main__:No specter2 embedding for corpusid: 273177466
-ERROR:__main__:No specter2 embedding for corpusid: 273157266
-ERROR:__main__:No specter2 embedding for corpusid: 273165647
-Processing all files:  62%|██████▏   | 382/621 [3:16:58<2:11:43, 33.07s/it]ERROR:__main__:No specter2 embedding for corpusid: 272953122
-Processing all files:  62%|██████▏   | 383/621 [3:17:34<2:14:59, 34.03s/it]ERROR:__main__:No specter2 embedding for corpusid: 273176293
-ERROR:__main__:No specter2 embedding for corpusid: 273018127
-ERROR:__main__:No specter2 embedding for corpusid: 273172714
-Processing all files:  62%|██████▏   | 384/621 [3:18:32<2:42:20, 41.10s/it]Processing all files:  62%|██████▏   | 385/621 [3:18:45<2:09:29, 32.92s/it]ERROR:__main__:No specter2 embedding for corpusid: 250109202
-ERROR:__main__:No specter2 embedding for corpusid: 273163162
-ERROR:__main__:No specter2 embedding for corpusid: 273163187
-ERROR:__main__:No specter2 embedding for corpusid: 260464591
-ERROR:__main__:No specter2 embedding for corpusid: 273171403
-Processing all files:  62%|██████▏   | 386/621 [3:19:29<2:21:24, 36.10s/it]ERROR:__main__:No specter2 embedding for corpusid: 273178464
-ERROR:__main__:No specter2 embedding for corpusid: 260601311
-ERROR:__main__:No specter2 embedding for corpusid: 273161686
-Processing all files:  62%|██████▏   | 387/621 [3:19:54<2:07:44, 32.75s/it]ERROR:__main__:No specter2 embedding for corpusid: 273153604
-Processing all files:  62%|██████▏   | 388/621 [3:20:05<1:41:51, 26.23s/it]ERROR:__main__:No specter2 embedding for corpusid: 273162305
-Processing all files:  63%|██████▎   | 389/621 [3:20:23<1:31:32, 23.67s/it]ERROR:__main__:No specter2 embedding for corpusid: 273163674
-ERROR:__main__:No specter2 embedding for corpusid: 228414940
-ERROR:__main__:No specter2 embedding for corpusid: 273165093
-Processing all files:  63%|██████▎   | 390/621 [3:20:40<1:23:17, 21.64s/it]ERROR:__main__:No specter2 embedding for corpusid: 273175235
-ERROR:__main__:No specter2 embedding for corpusid: 273179289
-ERROR:__main__:No specter2 embedding for corpusid: 272948438
-ERROR:__main__:No specter2 embedding for corpusid: 273154431
-Processing all files:  63%|██████▎   | 391/621 [3:21:35<2:01:44, 31.76s/it]ERROR:__main__:No specter2 embedding for corpusid: 273172014
-ERROR:__main__:No specter2 embedding for corpusid: 273144641
-ERROR:__main__:No specter2 embedding for corpusid: 273160631
-Processing all files:  63%|██████▎   | 392/621 [3:22:06<2:00:28, 31.57s/it]ERROR:__main__:No specter2 embedding for corpusid: 273144938
-ERROR:__main__:No specter2 embedding for corpusid: 272820061
-Processing all files:  63%|██████▎   | 393/621 [3:22:46<2:09:56, 34.20s/it]ERROR:__main__:No specter2 embedding for corpusid: 273176667
-ERROR:__main__:No specter2 embedding for corpusid: 273156557
-ERROR:__main__:No specter2 embedding for corpusid: 272813651
-ERROR:__main__:No specter2 embedding for corpusid: 273168168
-Processing all files:  63%|██████▎   | 394/621 [3:23:42<2:33:59, 40.70s/it]Processing all files:  64%|██████▎   | 395/621 [3:23:53<1:59:38, 31.76s/it]ERROR:__main__:No specter2 embedding for corpusid: 273163314
-ERROR:__main__:No specter2 embedding for corpusid: 273162504
-ERROR:__main__:No specter2 embedding for corpusid: 269171591
-Processing all files:  64%|██████▍   | 396/621 [3:24:37<2:12:57, 35.46s/it]ERROR:__main__:No specter2 embedding for corpusid: 273179335
-ERROR:__main__:No specter2 embedding for corpusid: 208069632
-ERROR:__main__:No specter2 embedding for corpusid: 273161132
-Processing all files:  64%|██████▍   | 397/621 [3:25:01<1:59:35, 32.03s/it]Processing all files:  64%|██████▍   | 398/621 [3:25:10<1:32:53, 24.99s/it]Processing all files:  64%|██████▍   | 399/621 [3:25:29<1:26:00, 23.24s/it]Processing all files:  64%|██████▍   | 400/621 [3:25:47<1:19:25, 21.56s/it]ERROR:__main__:No specter2 embedding for corpusid: 201936022
-ERROR:__main__:No specter2 embedding for corpusid: 273164720
-Processing all files:  65%|██████▍   | 401/621 [3:26:42<1:56:45, 31.85s/it]ERROR:__main__:No specter2 embedding for corpusid: 273162905
-ERROR:__main__:No specter2 embedding for corpusid: 272330192
-Processing all files:  65%|██████▍   | 402/621 [3:27:09<1:50:50, 30.37s/it]ERROR:__main__:No specter2 embedding for corpusid: 273162924
-Processing all files:  65%|██████▍   | 403/621 [3:27:52<2:03:59, 34.13s/it]Processing all files:  65%|██████▌   | 404/621 [3:28:46<2:24:28, 39.95s/it]Processing all files:  65%|██████▌   | 405/621 [3:28:54<1:49:36, 30.45s/it]ERROR:__main__:No specter2 embedding for corpusid: 272364466
-ERROR:__main__:No specter2 embedding for corpusid: 273173621
-Processing all files:  65%|██████▌   | 406/621 [3:29:40<2:05:14, 34.95s/it]ERROR:__main__:No specter2 embedding for corpusid: 273178425
-ERROR:__main__:No specter2 embedding for corpusid: 224335191
-ERROR:__main__:No specter2 embedding for corpusid: 79574193
-ERROR:__main__:No specter2 embedding for corpusid: 273116217
-Processing all files:  66%|██████▌   | 407/621 [3:30:06<1:55:24, 32.36s/it]ERROR:__main__:No specter2 embedding for corpusid: 273164611
-Processing all files:  66%|██████▌   | 408/621 [3:30:15<1:29:47, 25.29s/it]ERROR:__main__:No specter2 embedding for corpusid: 273161113
-Processing all files:  66%|██████▌   | 409/621 [3:30:39<1:28:17, 24.99s/it]Processing all files:  66%|██████▌   | 410/621 [3:30:55<1:18:47, 22.41s/it]ERROR:__main__:No specter2 embedding for corpusid: 273161697
-ERROR:__main__:No specter2 embedding for corpusid: 273165236
-ERROR:__main__:No specter2 embedding for corpusid: 273163651
-ERROR:__main__:No specter2 embedding for corpusid: 273163504
-ERROR:__main__:No specter2 embedding for corpusid: 272938852
-Processing all files:  66%|██████▌   | 411/621 [3:31:53<1:55:03, 32.87s/it]ERROR:__main__:No specter2 embedding for corpusid: 273152241
-Processing all files:  66%|██████▋   | 412/621 [3:32:21<1:50:14, 31.65s/it]ERROR:__main__:No specter2 embedding for corpusid: 49943173
-ERROR:__main__:No specter2 embedding for corpusid: 273164160
-ERROR:__main__:No specter2 embedding for corpusid: 273164394
-ERROR:__main__:No specter2 embedding for corpusid: 273152420
-Processing all files:  67%|██████▋   | 413/621 [3:33:04<2:00:43, 34.83s/it]ERROR:__main__:No specter2 embedding for corpusid: 202312341
-ERROR:__main__:No specter2 embedding for corpusid: 252044646
-ERROR:__main__:No specter2 embedding for corpusid: 273173975
-ERROR:__main__:No specter2 embedding for corpusid: 273159650
-ERROR:__main__:No specter2 embedding for corpusid: 204276186
-ERROR:__main__:No specter2 embedding for corpusid: 272916676
-Processing all files:  67%|██████▋   | 414/621 [3:34:03<2:25:38, 42.21s/it]ERROR:__main__:No specter2 embedding for corpusid: 273178987
-Processing all files:  67%|██████▋   | 415/621 [3:34:10<1:49:03, 31.76s/it]Processing all files:  67%|██████▋   | 416/621 [3:34:14<1:19:10, 23.17s/it]Processing all files:  67%|██████▋   | 417/621 [3:34:54<1:35:58, 28.23s/it]Processing all files:  67%|██████▋   | 418/621 [3:34:54<1:07:07, 19.84s/it]Processing all files:  67%|██████▋   | 419/621 [3:36:01<1:54:22, 33.97s/it]ERROR:__main__:No specter2 embedding for corpusid: 273165292
-Processing all files:  68%|██████▊   | 420/621 [3:36:36<1:54:41, 34.24s/it]ERROR:__main__:No specter2 embedding for corpusid: 273166326
-ERROR:__main__:No specter2 embedding for corpusid: 273155332
-ERROR:__main__:No specter2 embedding for corpusid: 273160564
-ERROR:__main__:No specter2 embedding for corpusid: 236588515
-ERROR:__main__:No specter2 embedding for corpusid: 273163274
-ERROR:__main__:No specter2 embedding for corpusid: 272820116
-ERROR:__main__:No specter2 embedding for corpusid: 273160426
-ERROR:__main__:No specter2 embedding for corpusid: 273156188
-ERROR:__main__:No specter2 embedding for corpusid: 273162554
-ERROR:__main__:No specter2 embedding for corpusid: 273172584
-ERROR:__main__:No specter2 embedding for corpusid: 273162526
-Processing all files:  68%|██████▊   | 421/621 [3:37:54<2:38:02, 47.41s/it]Processing all files:  68%|██████▊   | 422/621 [3:38:23<2:19:18, 42.00s/it]ERROR:__main__:No specter2 embedding for corpusid: 273178597
-ERROR:__main__:No specter2 embedding for corpusid: 273162768
-Processing all files:  68%|██████▊   | 423/621 [3:39:17<2:29:53, 45.42s/it]ERROR:__main__:No specter2 embedding for corpusid: 273164081
-ERROR:__main__:No specter2 embedding for corpusid: 272766639
-ERROR:__main__:No specter2 embedding for corpusid: 273147415
-ERROR:__main__:No specter2 embedding for corpusid: 249788046
-ERROR:__main__:No specter2 embedding for corpusid: 273177543
-ERROR:__main__:No specter2 embedding for corpusid: 273180143
-ERROR:__main__:No specter2 embedding for corpusid: 273018448
-Processing all files:  68%|██████▊   | 424/621 [3:40:19<2:46:03, 50.58s/it]ERROR:__main__:No specter2 embedding for corpusid: 273168229
-Processing all files:  68%|██████▊   | 425/621 [3:40:31<2:06:59, 38.88s/it]ERROR:__main__:No specter2 embedding for corpusid: 273178816
-Processing all files:  69%|██████▊   | 426/621 [3:40:37<1:34:15, 29.00s/it]ERROR:__main__:No specter2 embedding for corpusid: 89286943
-ERROR:__main__:No specter2 embedding for corpusid: 273157933
-ERROR:__main__:No specter2 embedding for corpusid: 273163006
-Processing all files:  69%|██████▉   | 427/621 [3:41:17<1:45:07, 32.52s/it]Processing all files:  69%|██████▉   | 428/621 [3:41:22<1:17:08, 23.98s/it]ERROR:__main__:No specter2 embedding for corpusid: 273154759
-Processing all files:  69%|██████▉   | 429/621 [3:41:56<1:26:58, 27.18s/it]Processing all files:  69%|██████▉   | 430/621 [3:42:22<1:25:25, 26.83s/it]ERROR:__main__:No specter2 embedding for corpusid: 273156870
-ERROR:__main__:No specter2 embedding for corpusid: 273175201
-ERROR:__main__:No specter2 embedding for corpusid: 273164062
-Processing all files:  69%|██████▉   | 431/621 [3:43:37<2:10:51, 41.32s/it]ERROR:__main__:No specter2 embedding for corpusid: 273151478
-ERROR:__main__:No specter2 embedding for corpusid: 273156617
-Processing all files:  70%|██████▉   | 432/621 [3:44:07<1:59:02, 37.79s/it]ERROR:__main__:No specter2 embedding for corpusid: 273164095
-ERROR:__main__:No specter2 embedding for corpusid: 229312522
-ERROR:__main__:No specter2 embedding for corpusid: 273147354
-ERROR:__main__:No specter2 embedding for corpusid: 143193340
-ERROR:__main__:No specter2 embedding for corpusid: 253191769
-Processing all files:  70%|██████▉   | 433/621 [3:45:03<2:15:30, 43.25s/it]ERROR:__main__:No specter2 embedding for corpusid: 273075447
-ERROR:__main__:No specter2 embedding for corpusid: 236363728
-Processing all files:  70%|██████▉   | 434/621 [3:45:59<2:27:04, 47.19s/it]Processing all files:  70%|███████   | 435/621 [3:46:07<1:49:33, 35.34s/it]Processing all files:  70%|███████   | 436/621 [3:46:12<1:21:07, 26.31s/it]ERROR:__main__:No specter2 embedding for corpusid: 71989930
-ERROR:__main__:No specter2 embedding for corpusid: 273160246
-ERROR:__main__:No specter2 embedding for corpusid: 273163288
-ERROR:__main__:No specter2 embedding for corpusid: 273158673
-ERROR:__main__:No specter2 embedding for corpusid: 273155084
-Processing all files:  70%|███████   | 437/621 [3:47:01<1:41:45, 33.18s/it]Processing all files:  71%|███████   | 438/621 [3:47:03<1:11:58, 23.60s/it]ERROR:__main__:No specter2 embedding for corpusid: 273114348
-ERROR:__main__:No specter2 embedding for corpusid: 272946099
-Processing all files:  71%|███████   | 439/621 [3:47:38<1:22:33, 27.22s/it]Processing all files:  71%|███████   | 440/621 [3:48:03<1:19:45, 26.44s/it]ERROR:__main__:No specter2 embedding for corpusid: 273175410
-ERROR:__main__:No specter2 embedding for corpusid: 273163092
-ERROR:__main__:No specter2 embedding for corpusid: 154548457
-ERROR:__main__:No specter2 embedding for corpusid: 273176258
-ERROR:__main__:No specter2 embedding for corpusid: 272965450
-Processing all files:  71%|███████   | 441/621 [3:49:14<1:59:51, 39.95s/it]ERROR:__main__:No specter2 embedding for corpusid: 273178444
-Processing all files:  71%|███████   | 442/621 [3:49:42<1:48:05, 36.23s/it]ERROR:__main__:No specter2 embedding for corpusid: 268124748
-Processing all files:  71%|███████▏  | 443/621 [3:50:27<1:55:33, 38.95s/it]ERROR:__main__:No specter2 embedding for corpusid: 82365623
-ERROR:__main__:No specter2 embedding for corpusid: 273148184
-ERROR:__main__:No specter2 embedding for corpusid: 273162540
-ERROR:__main__:No specter2 embedding for corpusid: 273166982
-ERROR:__main__:No specter2 embedding for corpusid: 272464837
-Processing all files:  71%|███████▏  | 444/621 [3:51:22<2:08:34, 43.59s/it]ERROR:__main__:No specter2 embedding for corpusid: 273179112
-Processing all files:  72%|███████▏  | 445/621 [3:51:28<1:35:17, 32.49s/it]ERROR:__main__:No specter2 embedding for corpusid: 266019032
-Processing all files:  72%|███████▏  | 446/621 [3:51:38<1:15:12, 25.78s/it]ERROR:__main__:No specter2 embedding for corpusid: 273155522
-ERROR:__main__:No specter2 embedding for corpusid: 273161625
-Processing all files:  72%|███████▏  | 447/621 [3:52:18<1:26:25, 29.80s/it]Processing all files:  72%|███████▏  | 448/621 [3:52:29<1:10:03, 24.30s/it]ERROR:__main__:No specter2 embedding for corpusid: 80552939
-ERROR:__main__:No specter2 embedding for corpusid: 270884124
-Processing all files:  72%|███████▏  | 449/621 [3:52:58<1:13:40, 25.70s/it]ERROR:__main__:No specter2 embedding for corpusid: 272957141
-ERROR:__main__:No specter2 embedding for corpusid: 273150875
-Processing all files:  72%|███████▏  | 450/621 [3:53:23<1:12:34, 25.46s/it]ERROR:__main__:No specter2 embedding for corpusid: 249725880
-ERROR:__main__:No specter2 embedding for corpusid: 273155958
-ERROR:__main__:No specter2 embedding for corpusid: 273162445
-ERROR:__main__:No specter2 embedding for corpusid: 273177588
-ERROR:__main__:No specter2 embedding for corpusid: 196391967
-ERROR:__main__:No specter2 embedding for corpusid: 273163564
-ERROR:__main__:No specter2 embedding for corpusid: 273167073
-Processing all files:  73%|███████▎  | 451/621 [3:54:31<1:48:21, 38.24s/it]ERROR:__main__:No specter2 embedding for corpusid: 117073841
-ERROR:__main__:No specter2 embedding for corpusid: 273162600
-Processing all files:  73%|███████▎  | 452/621 [3:55:01<1:40:47, 35.78s/it]ERROR:__main__:No specter2 embedding for corpusid: 273152278
-Processing all files:  73%|███████▎  | 453/621 [3:55:33<1:36:51, 34.59s/it]ERROR:__main__:No specter2 embedding for corpusid: 196725091
-Processing all files:  73%|███████▎  | 454/621 [3:55:44<1:16:52, 27.62s/it]ERROR:__main__:No specter2 embedding for corpusid: 273179267
-ERROR:__main__:No specter2 embedding for corpusid: 273162601
-ERROR:__main__:No specter2 embedding for corpusid: 273154554
-ERROR:__main__:No specter2 embedding for corpusid: 272865616
-ERROR:__main__:No specter2 embedding for corpusid: 272202095
-Processing all files:  73%|███████▎  | 455/621 [3:56:52<1:49:35, 39.61s/it]Processing all files:  73%|███████▎  | 456/621 [3:56:54<1:17:43, 28.27s/it]ERROR:__main__:No specter2 embedding for corpusid: 273163354
-ERROR:__main__:No specter2 embedding for corpusid: 273162452
-ERROR:__main__:No specter2 embedding for corpusid: 273178445
-Processing all files:  74%|███████▎  | 457/621 [3:57:30<1:23:57, 30.72s/it]ERROR:__main__:No specter2 embedding for corpusid: 273156280
-ERROR:__main__:No specter2 embedding for corpusid: 271175718
-Processing all files:  74%|███████▍  | 458/621 [3:57:48<1:13:08, 26.93s/it]ERROR:__main__:No specter2 embedding for corpusid: 272450316
-ERROR:__main__:No specter2 embedding for corpusid: 273146242
-Processing all files:  74%|███████▍  | 459/621 [3:58:11<1:09:27, 25.73s/it]Processing all files:  74%|███████▍  | 460/621 [3:58:39<1:11:02, 26.47s/it]ERROR:__main__:No specter2 embedding for corpusid: 273162799
-ERROR:__main__:No specter2 embedding for corpusid: 273144210
-ERROR:__main__:No specter2 embedding for corpusid: 272790818
-Processing all files:  74%|███████▍  | 461/621 [3:59:51<1:46:48, 40.05s/it]ERROR:__main__:No specter2 embedding for corpusid: 273177295
-Processing all files:  74%|███████▍  | 462/621 [4:00:12<1:30:53, 34.30s/it]ERROR:__main__:No specter2 embedding for corpusid: 273163953
-ERROR:__main__:No specter2 embedding for corpusid: 273178870
-Processing all files:  75%|███████▍  | 463/621 [4:00:51<1:34:14, 35.79s/it]Processing all files:  75%|███████▍  | 464/621 [4:01:02<1:14:25, 28.44s/it]ERROR:__main__:No specter2 embedding for corpusid: 61435552
-ERROR:__main__:No specter2 embedding for corpusid: 273178730
-ERROR:__main__:No specter2 embedding for corpusid: 268101347
-ERROR:__main__:No specter2 embedding for corpusid: 273163074
-ERROR:__main__:No specter2 embedding for corpusid: 273179084
-Processing all files:  75%|███████▍  | 465/621 [4:02:06<1:41:13, 38.93s/it]Processing all files:  75%|███████▌  | 466/621 [4:02:06<1:10:31, 27.30s/it]Processing all files:  75%|███████▌  | 467/621 [4:02:40<1:15:03, 29.24s/it]Processing all files:  75%|███████▌  | 468/621 [4:02:56<1:04:46, 25.40s/it]ERROR:__main__:No specter2 embedding for corpusid: 273160004
-ERROR:__main__:No specter2 embedding for corpusid: 273168382
-Processing all files:  76%|███████▌  | 469/621 [4:03:20<1:02:59, 24.87s/it]ERROR:__main__:No specter2 embedding for corpusid: 273153231
-ERROR:__main__:No specter2 embedding for corpusid: 273163126
-ERROR:__main__:No specter2 embedding for corpusid: 231069042
-ERROR:__main__:No specter2 embedding for corpusid: 273168765
-Processing all files:  76%|███████▌  | 470/621 [4:03:50<1:06:35, 26.46s/it]ERROR:__main__:No specter2 embedding for corpusid: 273177951
-ERROR:__main__:No specter2 embedding for corpusid: 249814215
-ERROR:__main__:No specter2 embedding for corpusid: 273153712
-ERROR:__main__:No specter2 embedding for corpusid: 273145787
-ERROR:__main__:No specter2 embedding for corpusid: 273172629
-ERROR:__main__:No specter2 embedding for corpusid: 273175355
-Processing all files:  76%|███████▌  | 471/621 [4:05:00<1:39:01, 39.61s/it]ERROR:__main__:No specter2 embedding for corpusid: 273159613
-ERROR:__main__:No specter2 embedding for corpusid: 273163337
-Processing all files:  76%|███████▌  | 472/621 [4:05:24<1:26:21, 34.78s/it]Processing all files:  76%|███████▌  | 473/621 [4:06:01<1:27:33, 35.50s/it]ERROR:__main__:No specter2 embedding for corpusid: 246042335
-ERROR:__main__:No specter2 embedding for corpusid: 273170558
-Processing all files:  76%|███████▋  | 474/621 [4:06:15<1:11:32, 29.20s/it]ERROR:__main__:No specter2 embedding for corpusid: 133227408
-ERROR:__main__:No specter2 embedding for corpusid: 273179534
-ERROR:__main__:No specter2 embedding for corpusid: 273162327
-ERROR:__main__:No specter2 embedding for corpusid: 249764703
-Processing all files:  76%|███████▋  | 475/621 [4:07:23<1:38:41, 40.56s/it]Processing all files:  77%|███████▋  | 476/621 [4:07:23<1:08:44, 28.44s/it]Processing all files:  77%|███████▋  | 477/621 [4:07:57<1:12:12, 30.08s/it]ERROR:__main__:No specter2 embedding for corpusid: 273162719
-Processing all files:  77%|███████▋  | 478/621 [4:08:11<1:00:33, 25.41s/it]Processing all files:  77%|███████▋  | 479/621 [4:08:39<1:01:39, 26.05s/it]ERROR:__main__:No specter2 embedding for corpusid: 273175692
-ERROR:__main__:No specter2 embedding for corpusid: 216482406
-ERROR:__main__:No specter2 embedding for corpusid: 272964508
-Processing all files:  77%|███████▋  | 480/621 [4:09:10<1:05:03, 27.68s/it]ERROR:__main__:No specter2 embedding for corpusid: 273149050
-ERROR:__main__:No specter2 embedding for corpusid: 197877182
-ERROR:__main__:No specter2 embedding for corpusid: 85143186
-ERROR:__main__:No specter2 embedding for corpusid: 272950761
-ERROR:__main__:No specter2 embedding for corpusid: 273162844
-ERROR:__main__:No specter2 embedding for corpusid: 273163058
-ERROR:__main__:No specter2 embedding for corpusid: 224455889
-ERROR:__main__:No specter2 embedding for corpusid: 273179003
-Processing all files:  77%|███████▋  | 481/621 [4:10:20<1:34:18, 40.42s/it]ERROR:__main__:No specter2 embedding for corpusid: 273177189
-Processing all files:  78%|███████▊  | 482/621 [4:10:44<1:22:10, 35.47s/it]ERROR:__main__:No specter2 embedding for corpusid: 273178672
-Processing all files:  78%|███████▊  | 483/621 [4:11:19<1:21:03, 35.25s/it]ERROR:__main__:No specter2 embedding for corpusid: 253231468
-ERROR:__main__:No specter2 embedding for corpusid: 273162318
-Processing all files:  78%|███████▊  | 484/621 [4:11:32<1:05:12, 28.56s/it]ERROR:__main__:No specter2 embedding for corpusid: 273159023
-ERROR:__main__:No specter2 embedding for corpusid: 273162463
-ERROR:__main__:No specter2 embedding for corpusid: 273159395
-Processing all files:  78%|███████▊  | 485/621 [4:12:38<1:29:57, 39.69s/it]Processing all files:  78%|███████▊  | 486/621 [4:12:45<1:07:20, 29.93s/it]Processing all files:  78%|███████▊  | 487/621 [4:13:19<1:10:03, 31.37s/it]ERROR:__main__:No specter2 embedding for corpusid: 273163176
-Processing all files:  79%|███████▊  | 488/621 [4:13:30<55:49, 25.19s/it]  ERROR:__main__:No specter2 embedding for corpusid: 273164001
-ERROR:__main__:No specter2 embedding for corpusid: 273150407
-Processing all files:  79%|███████▊  | 489/621 [4:13:56<55:48, 25.37s/it]ERROR:__main__:No specter2 embedding for corpusid: 273157119
-Processing all files:  79%|███████▉  | 490/621 [4:14:26<58:37, 26.85s/it]ERROR:__main__:No specter2 embedding for corpusid: 273170453
-ERROR:__main__:No specter2 embedding for corpusid: 273177054
-ERROR:__main__:No specter2 embedding for corpusid: 273071333
-ERROR:__main__:No specter2 embedding for corpusid: 75660940
-ERROR:__main__:No specter2 embedding for corpusid: 273180034
-Processing all files:  79%|███████▉  | 491/621 [4:15:35<1:25:36, 39.51s/it]ERROR:__main__:No specter2 embedding for corpusid: 273176747
-ERROR:__main__:No specter2 embedding for corpusid: 273170421
-Processing all files:  79%|███████▉  | 492/621 [4:15:55<1:12:03, 33.52s/it]Processing all files:  79%|███████▉  | 493/621 [4:16:31<1:13:00, 34.22s/it]ERROR:__main__:No specter2 embedding for corpusid: 273159026
-Processing all files:  80%|███████▉  | 494/621 [4:16:47<1:01:04, 28.86s/it]ERROR:__main__:No specter2 embedding for corpusid: 268833569
-ERROR:__main__:No specter2 embedding for corpusid: 273163362
-ERROR:__main__:No specter2 embedding for corpusid: 273177397
-ERROR:__main__:No specter2 embedding for corpusid: 273164052
-ERROR:__main__:No specter2 embedding for corpusid: 273180149
-ERROR:__main__:No specter2 embedding for corpusid: 273178708
-ERROR:__main__:No specter2 embedding for corpusid: 210473488
-Processing all files:  80%|███████▉  | 495/621 [4:17:53<1:24:11, 40.09s/it]Processing all files:  80%|███████▉  | 496/621 [4:17:58<1:01:31, 29.53s/it]ERROR:__main__:No specter2 embedding for corpusid: 273162368
-ERROR:__main__:No specter2 embedding for corpusid: 272981726
-Processing all files:  80%|████████  | 497/621 [4:18:36<1:06:23, 32.13s/it]ERROR:__main__:No specter2 embedding for corpusid: 273180113
-Processing all files:  80%|████████  | 498/621 [4:18:42<49:46, 24.28s/it]  Processing all files:  80%|████████  | 499/621 [4:19:06<49:12, 24.20s/it]ERROR:__main__:No specter2 embedding for corpusid: 273175169
-Processing all files:  81%|████████  | 500/621 [4:19:39<54:02, 26.79s/it]Processing all files:  81%|████████  | 501/621 [4:20:52<1:21:07, 40.56s/it]ERROR:__main__:No specter2 embedding for corpusid: 273156907
-Processing all files:  81%|████████  | 502/621 [4:21:03<1:02:49, 31.68s/it]ERROR:__main__:No specter2 embedding for corpusid: 273180192
-ERROR:__main__:No specter2 embedding for corpusid: 273177676
-ERROR:__main__:No specter2 embedding for corpusid: 273162636
-Processing all files:  81%|████████  | 503/621 [4:21:43<1:06:59, 34.06s/it]ERROR:__main__:No specter2 embedding for corpusid: 259562629
-Processing all files:  81%|████████  | 504/621 [4:22:11<1:03:19, 32.47s/it]ERROR:__main__:No specter2 embedding for corpusid: 273180029
-ERROR:__main__:No specter2 embedding for corpusid: 255904126
-ERROR:__main__:No specter2 embedding for corpusid: 273160276
-Processing all files:  81%|████████▏ | 505/621 [4:23:01<1:12:48, 37.66s/it]Processing all files:  81%|████████▏ | 506/621 [4:23:10<55:48, 29.12s/it]  ERROR:__main__:No specter2 embedding for corpusid: 273172070
-Processing all files:  82%|████████▏ | 507/621 [4:23:52<1:02:19, 32.80s/it]Processing all files:  82%|████████▏ | 508/621 [4:23:58<46:35, 24.74s/it]  ERROR:__main__:No specter2 embedding for corpusid: 272937335
-ERROR:__main__:No specter2 embedding for corpusid: 273168743
-Processing all files:  82%|████████▏ | 509/621 [4:24:23<46:29, 24.91s/it]ERROR:__main__:No specter2 embedding for corpusid: 273162906
-ERROR:__main__:No specter2 embedding for corpusid: 273178215
-Processing all files:  82%|████████▏ | 510/621 [4:25:00<53:03, 28.68s/it]ERROR:__main__:No specter2 embedding for corpusid: 273161748
-ERROR:__main__:No specter2 embedding for corpusid: 273162272
-ERROR:__main__:No specter2 embedding for corpusid: 266164055
-ERROR:__main__:No specter2 embedding for corpusid: 268020694
-Processing all files:  82%|████████▏ | 511/621 [4:26:07<1:13:29, 40.09s/it]Processing all files:  82%|████████▏ | 512/621 [4:26:21<58:29, 32.20s/it]  ERROR:__main__:No specter2 embedding for corpusid: 273179494
-Processing all files:  83%|████████▎ | 513/621 [4:27:01<1:02:18, 34.62s/it]ERROR:__main__:No specter2 embedding for corpusid: 79155576
-ERROR:__main__:No specter2 embedding for corpusid: 273086961
-Processing all files:  83%|████████▎ | 514/621 [4:27:43<1:05:46, 36.89s/it]ERROR:__main__:No specter2 embedding for corpusid: 273175021
-ERROR:__main__:No specter2 embedding for corpusid: 273164819
-Processing all files:  83%|████████▎ | 515/621 [4:28:22<1:05:55, 37.32s/it]Processing all files:  83%|████████▎ | 516/621 [4:28:27<48:43, 27.84s/it]  ERROR:__main__:No specter2 embedding for corpusid: 273177008
-ERROR:__main__:No specter2 embedding for corpusid: 272792945
-ERROR:__main__:No specter2 embedding for corpusid: 273178105
-Processing all files:  83%|████████▎ | 517/621 [4:29:17<59:21, 34.25s/it]Processing all files:  83%|████████▎ | 518/621 [4:29:24<45:13, 26.35s/it]ERROR:__main__:No specter2 embedding for corpusid: 273159406
-Processing all files:  84%|████████▎ | 519/621 [4:29:50<44:07, 25.95s/it]ERROR:__main__:No specter2 embedding for corpusid: 202676599
-Processing all files:  84%|████████▎ | 520/621 [4:30:22<47:04, 27.96s/it]ERROR:__main__:No specter2 embedding for corpusid: 273176997
-ERROR:__main__:No specter2 embedding for corpusid: 273162280
-ERROR:__main__:No specter2 embedding for corpusid: 273148209
-Processing all files:  84%|████████▍ | 521/621 [4:31:36<1:09:44, 41.84s/it]ERROR:__main__:No specter2 embedding for corpusid: 273150678
-ERROR:__main__:No specter2 embedding for corpusid: 252008372
-ERROR:__main__:No specter2 embedding for corpusid: 273165031
-Processing all files:  84%|████████▍ | 522/621 [4:31:54<57:06, 34.61s/it]  ERROR:__main__:No specter2 embedding for corpusid: 223658784
-Processing all files:  84%|████████▍ | 523/621 [4:32:26<55:17, 33.86s/it]ERROR:__main__:No specter2 embedding for corpusid: 273163185
-ERROR:__main__:No specter2 embedding for corpusid: 273175437
-Processing all files:  84%|████████▍ | 524/621 [4:33:20<1:04:12, 39.71s/it]Processing all files:  85%|████████▍ | 525/621 [4:33:47<57:40, 36.05s/it]  ERROR:__main__:No specter2 embedding for corpusid: 273162042
-Processing all files:  85%|████████▍ | 526/621 [4:33:55<43:44, 27.63s/it]ERROR:__main__:No specter2 embedding for corpusid: 273148146
-ERROR:__main__:No specter2 embedding for corpusid: 131283363
-ERROR:__main__:No specter2 embedding for corpusid: 273160244
-Processing all files:  85%|████████▍ | 527/621 [4:34:50<55:53, 35.67s/it]Processing all files:  85%|████████▌ | 528/621 [4:34:51<39:36, 25.55s/it]Processing all files:  85%|████████▌ | 529/621 [4:34:53<28:19, 18.47s/it]ERROR:__main__:No specter2 embedding for corpusid: 85843595
-ERROR:__main__:No specter2 embedding for corpusid: 273173905
-Processing all files:  85%|████████▌ | 530/621 [4:35:18<30:53, 20.37s/it]ERROR:__main__:No specter2 embedding for corpusid: 273163032
-ERROR:__main__:No specter2 embedding for corpusid: 273165837
-Processing all files:  86%|████████▌ | 531/621 [4:35:57<38:58, 25.99s/it]ERROR:__main__:No specter2 embedding for corpusid: 273157440
-Processing all files:  86%|████████▌ | 532/621 [4:36:54<52:15, 35.23s/it]Processing all files:  86%|████████▌ | 533/621 [4:37:08<42:24, 28.92s/it]ERROR:__main__:No specter2 embedding for corpusid: 273162764
-Processing all files:  86%|████████▌ | 534/621 [4:37:40<43:07, 29.74s/it]ERROR:__main__:No specter2 embedding for corpusid: 273164623
-ERROR:__main__:No specter2 embedding for corpusid: 159989067
-ERROR:__main__:No specter2 embedding for corpusid: 259788246
-ERROR:__main__:No specter2 embedding for corpusid: 273161817
-ERROR:__main__:No specter2 embedding for corpusid: 273158075
-Processing all files:  86%|████████▌ | 535/621 [4:38:52<1:00:44, 42.38s/it]Processing all files:  86%|████████▋ | 536/621 [4:39:05<47:41, 33.66s/it]  Processing all files:  86%|████████▋ | 537/621 [4:39:07<33:55, 24.24s/it]ERROR:__main__:No specter2 embedding for corpusid: 273162748
-ERROR:__main__:No specter2 embedding for corpusid: 273112506
-ERROR:__main__:No specter2 embedding for corpusid: 272951741
-Processing all files:  87%|████████▋ | 538/621 [4:40:05<47:32, 34.37s/it]ERROR:__main__:No specter2 embedding for corpusid: 197865477
-Processing all files:  87%|████████▋ | 539/621 [4:40:10<34:41, 25.38s/it]ERROR:__main__:No specter2 embedding for corpusid: 272931068
-ERROR:__main__:No specter2 embedding for corpusid: 273156091
-Processing all files:  87%|████████▋ | 540/621 [4:40:37<35:09, 26.05s/it]ERROR:__main__:No specter2 embedding for corpusid: 273154116
-ERROR:__main__:No specter2 embedding for corpusid: 273162430
-ERROR:__main__:No specter2 embedding for corpusid: 271552589
-Processing all files:  87%|████████▋ | 541/621 [4:41:14<39:00, 29.26s/it]ERROR:__main__:No specter2 embedding for corpusid: 273160925
-ERROR:__main__:No specter2 embedding for corpusid: 273177507
-ERROR:__main__:No specter2 embedding for corpusid: 273154611
-ERROR:__main__:No specter2 embedding for corpusid: 273162794
-Processing all files:  87%|████████▋ | 542/621 [4:42:06<47:33, 36.12s/it]ERROR:__main__:No specter2 embedding for corpusid: 272940124
-Processing all files:  87%|████████▋ | 543/621 [4:42:23<39:28, 30.36s/it]ERROR:__main__:No specter2 embedding for corpusid: 273162384
-ERROR:__main__:No specter2 embedding for corpusid: 273178101
-ERROR:__main__:No specter2 embedding for corpusid: 273162357
-ERROR:__main__:No specter2 embedding for corpusid: 273176579
-Processing all files:  88%|████████▊ | 544/621 [4:42:58<40:36, 31.65s/it]ERROR:__main__:No specter2 embedding for corpusid: 273167067
-ERROR:__main__:No specter2 embedding for corpusid: 273164321
-ERROR:__main__:No specter2 embedding for corpusid: 273165497
-ERROR:__main__:No specter2 embedding for corpusid: 273163746
-Processing all files:  88%|████████▊ | 545/621 [4:44:26<1:01:29, 48.55s/it]Processing all files:  88%|████████▊ | 546/621 [4:44:26<42:40, 34.15s/it]  Processing all files:  88%|████████▊ | 547/621 [4:44:28<30:11, 24.48s/it]ERROR:__main__:No specter2 embedding for corpusid: 273169336
-ERROR:__main__:No specter2 embedding for corpusid: 273162733
-ERROR:__main__:No specter2 embedding for corpusid: 273163120
-ERROR:__main__:No specter2 embedding for corpusid: 273157120
-ERROR:__main__:No specter2 embedding for corpusid: 273149905
-Processing all files:  88%|████████▊ | 548/621 [4:45:32<44:15, 36.37s/it]Processing all files:  88%|████████▊ | 549/621 [4:45:34<31:01, 25.86s/it]ERROR:__main__:No specter2 embedding for corpusid: 273174103
-Processing all files:  89%|████████▊ | 550/621 [4:45:59<30:12, 25.53s/it]ERROR:__main__:No specter2 embedding for corpusid: 273171315
-Processing all files:  89%|████████▊ | 551/621 [4:46:43<36:20, 31.15s/it]ERROR:__main__:No specter2 embedding for corpusid: 273177548
-ERROR:__main__:No specter2 embedding for corpusid: 221536727
-ERROR:__main__:No specter2 embedding for corpusid: 273156869
-ERROR:__main__:No specter2 embedding for corpusid: 273163576
-ERROR:__main__:No specter2 embedding for corpusid: 273163667
-Processing all files:  89%|████████▉ | 552/621 [4:47:42<45:31, 39.59s/it]Processing all files:  89%|████████▉ | 553/621 [4:47:48<33:16, 29.36s/it]ERROR:__main__:No specter2 embedding for corpusid: 273158796
-ERROR:__main__:No specter2 embedding for corpusid: 273014623
-Processing all files:  89%|████████▉ | 554/621 [4:48:27<36:16, 32.49s/it]ERROR:__main__:No specter2 embedding for corpusid: 273163172
-ERROR:__main__:No specter2 embedding for corpusid: 273162494
-ERROR:__main__:No specter2 embedding for corpusid: 84473379
-ERROR:__main__:No specter2 embedding for corpusid: 273143823
-ERROR:__main__:No specter2 embedding for corpusid: 273167626
-Processing all files:  89%|████████▉ | 555/621 [4:50:04<56:48, 51.65s/it]Processing all files:  90%|████████▉ | 556/621 [4:50:05<39:37, 36.57s/it]Processing all files:  90%|████████▉ | 557/621 [4:50:14<30:07, 28.24s/it]ERROR:__main__:No specter2 embedding for corpusid: 273152894
-ERROR:__main__:No specter2 embedding for corpusid: 273156810
-Processing all files:  90%|████████▉ | 558/621 [4:51:13<39:23, 37.51s/it]Processing all files:  90%|█████████ | 559/621 [4:51:19<29:00, 28.06s/it]ERROR:__main__:No specter2 embedding for corpusid: 273162634
-ERROR:__main__:No specter2 embedding for corpusid: 273160253
-Processing all files:  90%|█████████ | 560/621 [4:51:39<25:54, 25.48s/it]ERROR:__main__:No specter2 embedding for corpusid: 265368735
-ERROR:__main__:No specter2 embedding for corpusid: 250114454
-Processing all files:  90%|█████████ | 561/621 [4:52:19<30:04, 30.07s/it]ERROR:__main__:No specter2 embedding for corpusid: 273171118
-Processing all files:  90%|█████████ | 562/621 [4:53:23<39:28, 40.14s/it]Processing all files:  91%|█████████ | 563/621 [4:53:30<29:05, 30.10s/it]ERROR:__main__:No specter2 embedding for corpusid: 273164997
-Processing all files:  91%|█████████ | 564/621 [4:54:01<29:05, 30.61s/it]ERROR:__main__:No specter2 embedding for corpusid: 249726160
-ERROR:__main__:No specter2 embedding for corpusid: 208030920
-ERROR:__main__:No specter2 embedding for corpusid: 273171705
-ERROR:__main__:No specter2 embedding for corpusid: 273166855
-ERROR:__main__:No specter2 embedding for corpusid: 273157118
-ERROR:__main__:No specter2 embedding for corpusid: 273178746
-ERROR:__main__:No specter2 embedding for corpusid: 273165602
-Processing all files:  91%|█████████ | 565/621 [4:55:46<49:23, 52.93s/it]Processing all files:  91%|█████████ | 566/621 [4:55:50<34:55, 38.11s/it]Processing all files:  91%|█████████▏| 567/621 [4:56:02<27:17, 30.33s/it]ERROR:__main__:No specter2 embedding for corpusid: 273157133
-ERROR:__main__:No specter2 embedding for corpusid: 272955388
-Processing all files:  91%|█████████▏| 568/621 [4:56:50<31:25, 35.58s/it]Processing all files:  92%|█████████▏| 569/621 [4:57:04<25:15, 29.15s/it]ERROR:__main__:No specter2 embedding for corpusid: 273158203
-Processing all files:  92%|█████████▏| 570/621 [4:57:17<20:43, 24.38s/it]ERROR:__main__:No specter2 embedding for corpusid: 88577384
-ERROR:__main__:No specter2 embedding for corpusid: 273177028
-ERROR:__main__:No specter2 embedding for corpusid: 273173775
-ERROR:__main__:No specter2 embedding for corpusid: 273156057
-Processing all files:  92%|█████████▏| 571/621 [4:57:57<24:10, 29.02s/it]ERROR:__main__:No specter2 embedding for corpusid: 183551169
-ERROR:__main__:No specter2 embedding for corpusid: 273162816
-ERROR:__main__:No specter2 embedding for corpusid: 218787981
-ERROR:__main__:No specter2 embedding for corpusid: 273163627
-Processing all files:  92%|█████████▏| 572/621 [4:59:07<33:45, 41.35s/it]Processing all files:  92%|█████████▏| 573/621 [4:59:13<24:37, 30.78s/it]ERROR:__main__:No specter2 embedding for corpusid: 273162328
-Processing all files:  92%|█████████▏| 574/621 [4:59:43<23:49, 30.41s/it]ERROR:__main__:No specter2 embedding for corpusid: 273154996
-ERROR:__main__:No specter2 embedding for corpusid: 273157470
-ERROR:__main__:No specter2 embedding for corpusid: 273162553
-ERROR:__main__:No specter2 embedding for corpusid: 101216911
-ERROR:__main__:No specter2 embedding for corpusid: 273162180
-Processing all files:  93%|█████████▎| 575/621 [5:01:14<37:19, 48.69s/it]Processing all files:  93%|█████████▎| 576/621 [5:01:20<26:46, 35.70s/it]Processing all files:  93%|█████████▎| 577/621 [5:01:33<21:08, 28.83s/it]ERROR:__main__:No specter2 embedding for corpusid: 273180086
-Processing all files:  93%|█████████▎| 578/621 [5:02:13<23:16, 32.47s/it]ERROR:__main__:No specter2 embedding for corpusid: 272934003
-Processing all files:  93%|█████████▎| 579/621 [5:02:34<20:18, 29.00s/it]Processing all files:  93%|█████████▎| 580/621 [5:02:40<15:02, 22.02s/it]ERROR:__main__:No specter2 embedding for corpusid: 273152936
-ERROR:__main__:No specter2 embedding for corpusid: 273174993
-ERROR:__main__:No specter2 embedding for corpusid: 273175964
-Processing all files:  94%|█████████▎| 581/621 [5:03:23<18:54, 28.36s/it]ERROR:__main__:No specter2 embedding for corpusid: 273144735
-Processing all files:  94%|█████████▎| 582/621 [5:04:27<25:20, 38.99s/it]Processing all files:  94%|█████████▍| 583/621 [5:04:39<19:33, 30.87s/it]Processing all files:  94%|█████████▍| 584/621 [5:05:02<17:33, 28.48s/it]ERROR:__main__:No specter2 embedding for corpusid: 208021155
-ERROR:__main__:No specter2 embedding for corpusid: 273162690
-ERROR:__main__:No specter2 embedding for corpusid: 218797854
-ERROR:__main__:No specter2 embedding for corpusid: 250128746
-Processing all files:  94%|█████████▍| 585/621 [5:06:34<28:35, 47.66s/it]Processing all files:  94%|█████████▍| 586/621 [5:06:40<20:22, 34.92s/it]Processing all files:  95%|█████████▍| 587/621 [5:07:17<20:10, 35.61s/it]ERROR:__main__:No specter2 embedding for corpusid: 273162943
-ERROR:__main__:No specter2 embedding for corpusid: 273178981
-Processing all files:  95%|█████████▍| 588/621 [5:07:50<19:15, 35.01s/it]ERROR:__main__:No specter2 embedding for corpusid: 271752076
-ERROR:__main__:No specter2 embedding for corpusid: 273162975
-ERROR:__main__:No specter2 embedding for corpusid: 273162314
-Processing all files:  95%|█████████▍| 589/621 [5:08:13<16:44, 31.39s/it]Processing all files:  95%|█████████▌| 590/621 [5:08:15<11:33, 22.36s/it]ERROR:__main__:No specter2 embedding for corpusid: 273149785
-ERROR:__main__:No specter2 embedding for corpusid: 273156485
-ERROR:__main__:No specter2 embedding for corpusid: 273174743
-Processing all files:  95%|█████████▌| 591/621 [5:09:04<15:11, 30.38s/it]ERROR:__main__:No specter2 embedding for corpusid: 273169608
-ERROR:__main__:No specter2 embedding for corpusid: 273179835
-ERROR:__main__:No specter2 embedding for corpusid: 273157121
-Processing all files:  95%|█████████▌| 592/621 [5:10:05<19:08, 39.62s/it]Processing all files:  95%|█████████▌| 593/621 [5:10:14<14:12, 30.46s/it]ERROR:__main__:No specter2 embedding for corpusid: 273179025
-Processing all files:  96%|█████████▌| 594/621 [5:10:37<12:39, 28.12s/it]ERROR:__main__:No specter2 embedding for corpusid: 273161753
-ERROR:__main__:No specter2 embedding for corpusid: 273155419
-ERROR:__main__:No specter2 embedding for corpusid: 272813331
-ERROR:__main__:No specter2 embedding for corpusid: 273176063
-Processing all files:  96%|█████████▌| 595/621 [5:12:06<20:08, 46.49s/it]ERROR:__main__:No specter2 embedding for corpusid: 32655622
-Processing all files:  96%|█████████▌| 596/621 [5:12:11<14:14, 34.16s/it]Processing all files:  96%|█████████▌| 597/621 [5:12:37<12:39, 31.65s/it]Processing all files:  96%|█████████▋| 598/621 [5:13:10<12:16, 32.02s/it]ERROR:__main__:No specter2 embedding for corpusid: 210594658
-Processing all files:  96%|█████████▋| 599/621 [5:13:32<10:36, 28.93s/it]Processing all files:  97%|█████████▋| 600/621 [5:13:41<08:02, 22.97s/it]ERROR:__main__:No specter2 embedding for corpusid: 272336895
-Processing all files:  97%|█████████▋| 601/621 [5:14:18<09:05, 27.27s/it]ERROR:__main__:No specter2 embedding for corpusid: 273031049
-ERROR:__main__:No specter2 embedding for corpusid: 273164103
-ERROR:__main__:No specter2 embedding for corpusid: 273072583
-ERROR:__main__:No specter2 embedding for corpusid: 273156003
-Processing all files:  97%|█████████▋| 602/621 [5:15:11<11:02, 34.87s/it]Processing all files:  97%|█████████▋| 603/621 [5:15:22<08:20, 27.78s/it]ERROR:__main__:No specter2 embedding for corpusid: 273155647
-Processing all files:  97%|█████████▋| 604/621 [5:15:50<07:54, 27.90s/it]ERROR:__main__:No specter2 embedding for corpusid: 273177423
-ERROR:__main__:No specter2 embedding for corpusid: 273170403
-ERROR:__main__:No specter2 embedding for corpusid: 273003118
-ERROR:__main__:No specter2 embedding for corpusid: 273162338
-ERROR:__main__:No specter2 embedding for corpusid: 273157497
-Processing all files:  97%|█████████▋| 605/621 [5:17:12<11:43, 43.96s/it]ERROR:__main__:No specter2 embedding for corpusid: 273171389
-Processing all files:  98%|█████████▊| 606/621 [5:17:16<08:03, 32.21s/it]ERROR:__main__:No specter2 embedding for corpusid: 273149523
-ERROR:__main__:No specter2 embedding for corpusid: 273176327
-Processing all files:  98%|█████████▊| 607/621 [5:17:43<07:08, 30.63s/it]ERROR:__main__:No specter2 embedding for corpusid: 273162542
-ERROR:__main__:No specter2 embedding for corpusid: 210811278
-ERROR:__main__:No specter2 embedding for corpusid: 273164843
-Processing all files:  98%|█████████▊| 608/621 [5:18:14<06:39, 30.76s/it]ERROR:__main__:No specter2 embedding for corpusid: 273162523
-ERROR:__main__:No specter2 embedding for corpusid: 273162928
-ERROR:__main__:No specter2 embedding for corpusid: 273179956
-Processing all files:  98%|█████████▊| 609/621 [5:18:42<05:59, 29.94s/it]Processing all files:  98%|█████████▊| 610/621 [5:18:44<03:54, 21.31s/it]ERROR:__main__:No specter2 embedding for corpusid: 273160169
-ERROR:__main__:No specter2 embedding for corpusid: 273163321
-ERROR:__main__:No specter2 embedding for corpusid: 241451162
-ERROR:__main__:No specter2 embedding for corpusid: 273162769
-Processing all files:  98%|█████████▊| 611/621 [5:19:22<04:25, 26.59s/it]ERROR:__main__:No specter2 embedding for corpusid: 249715698
-ERROR:__main__:No specter2 embedding for corpusid: 273164525
-ERROR:__main__:No specter2 embedding for corpusid: 273149828
-ERROR:__main__:No specter2 embedding for corpusid: 273175419
-Processing all files:  99%|█████████▊| 612/621 [5:20:20<05:21, 35.73s/it]ERROR:__main__:No specter2 embedding for corpusid: 273173181
-Processing all files:  99%|█████████▊| 613/621 [5:20:33<03:52, 29.09s/it]ERROR:__main__:No specter2 embedding for corpusid: 273065293
-ERROR:__main__:No specter2 embedding for corpusid: 235274293
-ERROR:__main__:No specter2 embedding for corpusid: 273163809
-Processing all files:  99%|█████████▉| 614/621 [5:20:52<03:02, 26.08s/it]ERROR:__main__:No specter2 embedding for corpusid: 273163268
-ERROR:__main__:No specter2 embedding for corpusid: 273157878
-Processing all files:  99%|█████████▉| 615/621 [5:22:26<04:37, 46.32s/it]Processing all files:  99%|█████████▉| 616/621 [5:22:32<02:51, 34.28s/it]Processing all files:  99%|█████████▉| 617/621 [5:22:51<01:58, 29.66s/it]Processing all files: 100%|█████████▉| 618/621 [5:23:06<01:16, 25.35s/it]ERROR:__main__:No specter2 embedding for corpusid: 273176760
-Processing all files: 100%|█████████▉| 619/621 [5:23:12<00:38, 19.47s/it]Processing all files: 100%|██████████| 621/621 [5:23:13<00:00, 10.82s/it]Processing all files: 100%|██████████| 621/621 [5:23:13<00:00, 31.23s/it]
-Saving index to /usr/project/xtmp/ai_reviewer/index/list_specter2.specter2
