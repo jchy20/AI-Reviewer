@@ -1,3 +1,0 @@
-linux46
-No devices were found
-/home/users/hc387/miniconda3/envs/review/bin/python
