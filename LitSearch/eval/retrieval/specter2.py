@@ -11,7 +11,7 @@ import torch
 
 class SPECTER2(KVStore):
     def __init__(self, index_name: str, key_instruction: str, query_instruction: str, save_as_tensor: bool = False, model_path: str = "allenai/specter2_base"):
-        super().__init__(index_name, 'specter2')
+        super().__init__(index_name, 'specter2', save_as_tensor)
 
         #model config
         self.model_path = model_path
@@ -25,7 +25,7 @@ class SPECTER2(KVStore):
 
         self.save_as_tensor = save_as_tensor
 
-    def _encode_batch(self, texts: List[str], type: TextType, show_progress_bar: bool = True, batch_size: int = 256) -> List[Any]:
+    def _encode_batch(self, texts: List[str], type: TextType, show_progress_bar: bool = True, batch_size: int = 3) -> List[Any]:
         encoded_keys = []
         total_batches = utils.batch_size_calc(texts, batch_size)
 
@@ -39,9 +39,9 @@ class SPECTER2(KVStore):
                                         truncation=True,
                                         return_tensors="pt", 
                                         return_token_type_ids=False,
-                                        max_length=512)
+                                        max_length=512).to("cuda")
             output = self._model(**inputs)
-            embeddings = output.last_hidden_state[:, 0, :]
+            embeddings = output.last_hidden_state[:, 0, :].detach().clone().requires_grad_(False)
             encoded_keys.extend(embeddings)
         return encoded_keys
     

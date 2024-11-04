@@ -13,9 +13,9 @@ def create_index(args: argparse.Namespace) -> KVStore:
 
     if args.index_type == "bm25":
         from eval.retrieval.bm25 import BM25
-        if args.save_as_tensor == True:
+        if args.save_as_tensor == 'True':
             save_as_tensor = True
-        elif args.save_as_tensor == False:
+        elif args.save_as_tensor == 'False':
             save_as_tensor = False
         else:
             raise ValueError("Invalid key")
@@ -33,27 +33,27 @@ def create_index(args: argparse.Namespace) -> KVStore:
             key_instruction = "Represent the passage from the research paper for retrieval:"
         else:
             raise ValueError("Invalid key")
-        if args.save_as_tensor == True:
+        if args.save_as_tensor == 'True':
             save_as_tensor = True
-        elif args.save_as_tensor == False:
+        elif args.save_as_tensor == 'False':
             save_as_tensor = False
         else:
             raise ValueError("Invalid key")
         index = Instructor(index_name, key_instruction, query_instruction, save_as_tensor)
     elif args.index_type == "e5":
         from eval.retrieval.e5 import E5
-        if args.save_as_tensor == True:
+        if args.save_as_tensor == 'True':
             save_as_tensor = True
-        elif args.save_as_tensor == False:
+        elif args.save_as_tensor == 'False':
             save_as_tensor = False
         else:
             raise ValueError("Invalid key")
         index = E5(index_name, save_as_tensor)
     elif args.index_type == "gtr":
         from eval.retrieval.gtr import GTR
-        if args.save_as_tensor == True:
+        if args.save_as_tensor == 'True':
             save_as_tensor = True
-        elif args.save_as_tensor == False:
+        elif args.save_as_tensor == 'False':
             save_as_tensor = False
         else:
             raise ValueError("Invalid key")
@@ -68,9 +68,9 @@ def create_index(args: argparse.Namespace) -> KVStore:
             raw_instruction = "Given a research query, retrieve the passage from the relevant research paper"
         else:
             raise ValueError("Invalid key")
-        if args.save_as_tensor == True:
+        if args.save_as_tensor == 'True':
             save_as_tensor = True
-        elif args.save_as_tensor == False:
+        elif args.save_as_tensor == 'False':
             save_as_tensor = False
         else:
             raise ValueError("Invalid key")
@@ -82,9 +82,9 @@ def create_index(args: argparse.Namespace) -> KVStore:
             key_instruction = "Represent the title and abstract of the research paper for retrieval:"
         else:
             raise ValueError("Invalid key")
-        if args.save_as_tensor == True:
+        if args.save_as_tensor == 'True':
             save_as_tensor = True
-        elif args.save_as_tensor == False:
+        elif args.save_as_tensor == 'False':
             save_as_tensor = False
         else:
             raise ValueError("Invalid key")
