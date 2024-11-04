@@ -10,5 +10,5 @@ Run temp.py in job.sh
 
 pip install -r requirements.txt  
 cd LitSearch/eval/specter_eval  
-Change the query and topk in the job script  
-run the job script
+Modify the job script with your own environment
+Run the specter_eval.sh
