@@ -7,6 +7,6 @@
 Run temp.py in job.sh
 
 ### To run specter2 retrieval:
-cd LitSearch/eval/temp_testing \n
-Change the query and topk in the job script \n
+cd LitSearch/eval/temp_testing \\
+Change the query and topk in the job script \\
 run the job script
