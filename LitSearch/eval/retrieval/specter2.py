@@ -7,6 +7,7 @@ import numpy as np
 from typing import List, Any
 from tqdm import tqdm
 from sklearn.metrics.pairwise import cosine_similarity
+import torch.nn.functional as F
 import torch
 
 class SPECTER2(KVStore):
@@ -47,7 +48,7 @@ class SPECTER2(KVStore):
     
     def _query(self, encoded_query: Any, n: int) -> List[int]:
         if self.save_as_tensor:
-            inner_product = torch.matmul(self.encoded_keys, encoded_query)
+            inner_product = F.cosine_similarity(self.encoded_keys, encoded_query)
             _, top_indices = torch.topk(inner_product, n)
             return top_indices
 
