@@ -8,4 +8,4 @@
 #SBATCH --job-name=alpaca
 #SBATCH --output=eval%a.log
 
-python iclr2024_retrieval_eval.py --topk 20 
+python iclr2024_retrieval_eval.py --topk 100 
