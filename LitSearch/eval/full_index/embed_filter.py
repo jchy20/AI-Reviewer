@@ -30,7 +30,8 @@ def load_file_line_by_line(file_path):
 
 class EmbeddingFilter:
     def __init__(self, seeds: torch.Tensor, input_folder: str, output_folder: str, num_papers: int = 5000000, max_workers: int = 10):
-        self.seeds = seeds.to("cuda")
+        self.seeds = F.normalize(seeds.float(), p=2, dim=1)
+        self.seeds = self.seeds.to("cuda")
         self.input_folder = Path(input_folder)
         self.num_papers = num_papers
         self.main_dict = {}
@@ -44,7 +45,31 @@ class EmbeddingFilter:
         self.output_folder = output_folder
         os.makedirs(self.output_folder, exist_ok=True)
 
+    # def process_file(self, file_path: Path, lock) -> None:
+    #     for data in load_file_line_by_line(file_path):
+    #         try:
+    #             embedding = ast.literal_eval(data['vector'])
+    #             embedding = torch.tensor(embedding).float().requires_grad_(False).to("cuda")
+
+    #             if len(embedding) != 768:
+    #                 raise TypeError(f"embedding length is not 768")
+                
+    #             inner_product = F.cosine_similarity(self.seeds, embedding)
+    #             avg_similarity = torch.mean(inner_product).item()
+
+    #             embedding = embedding.cpu().tolist()
+    #             with lock:
+    #                 self.main_dict[data['corpusid']] = {"corpusid": data['corpusid'], "embeddings": embedding, "avg_similarity": avg_similarity}
+
+    #         except KeyError as e:
+    #             self.logger.error(f"No specter2 embedding for corpusid: {data['corpusid']}") 
+
+    #         except TypeError as e:
+    #             self.logger.error(e)
+    
     def process_file(self, file_path: Path, lock) -> None:
+        embeddings = []
+        temp_dict = {}
         for data in load_file_line_by_line(file_path):
             try:
                 embedding = ast.literal_eval(data['vector'])
@@ -53,18 +78,29 @@ class EmbeddingFilter:
                 if len(embedding) != 768:
                     raise TypeError(f"embedding length is not 768")
                 
-                inner_product = F.cosine_similarity(self.seeds, embedding)
-                avg_similarity = torch.mean(inner_product).item()
-
+                embeddings.append(embedding)
                 embedding = embedding.cpu().tolist()
-                with lock:
-                    self.main_dict[data['corpusid']] = {"corpusid": data['corpusid'], "embeddings": embedding, "avg_similarity": avg_similarity}
+                temp_dict[data['corpusid']] = {"corpusid": data['corpusid'], "embeddings": embedding}
 
             except KeyError as e:
                 self.logger.error(f"No specter2 embedding for corpusid: {data['corpusid']}") 
 
             except TypeError as e:
                 self.logger.error(e)
+
+        embeddings = torch.stack(embeddings)
+        embeddings = F.normalize(embeddings, p=2, dim=1)
+
+        cos_sim = torch.matmul(embeddings, self.seeds.T)
+        avg_sim = cos_sim.mean(dim=1)
+        avg_sim = avg_sim.cpu().tolist()
+
+        for i, (corpusid, sub_dict) in enumerate(temp_dict.items()):
+            sub_dict["avg_similarity"] = avg_sim[i]
+
+        with lock:
+            self.main_dict.update(temp_dict)
+            
     
     def process_all_files(self) -> None:
 
