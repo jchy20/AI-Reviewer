@@ -1,135 +1,0 @@
-compsci-cluster-fitz-05
-Fri Nov  8 02:44:22 2024       
-+-----------------------------------------------------------------------------------------+
-| NVIDIA-SMI 550.127.05             Driver Version: 550.127.05     CUDA Version: 12.4     |
-|-----------------------------------------+------------------------+----------------------+
-| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |
-| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |
-|                                         |                        |               MIG M. |
-|=========================================+========================+======================|
-|   0  NVIDIA RTX A6000               Off |   00000000:17:00.0 Off |                  Off |
-| 30%   26C    P8             27W /  300W |       2MiB /  49140MiB |      0%      Default |
-|                                         |                        |                  N/A |
-+-----------------------------------------+------------------------+----------------------+
-                                                                                         
-+-----------------------------------------------------------------------------------------+
-| Processes:                                                                              |
-|  GPU   GI   CI        PID   Type   Process name                              GPU Memory |
-|        ID   ID                                                               Usage      |
-|=========================================================================================|
-|  No running processes found                                                             |
-+-----------------------------------------------------------------------------------------+
-SHELL=/bin/zsh
-LSCOLORS=Gxfxcxdxbxegedabagacad
-USER_ZDOTDIR=/tmp/hc387-code-zsh
-COLORTERM=truecolor
-SLURM_JOB_USER=hc387
-SLURM_TASKS_PER_NODE=1
-LESS=-R
-SLURM_JOB_UID=1526779
-TERM_PROGRAM_VERSION=1.95.1
-SLURM_TASK_PID=859493
-CONDA_EXE=/home/users/hc387/miniconda3/bin/conda
-_CE_M=
-SLURM_JOB_GPUS=0
-SLURM_LOCALID=0
-SLURM_SUBMIT_DIR=/usr/project/xtmp/hc387/ai_reviewer/LitSearch/eval/full_index
-HOSTNAME=compsci-cluster-fitz-05
-SLURMD_NODENAME=compsci-cluster-fitz-05
-FPATH=/home/users/hc387/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting:/home/users/hc387/.oh-my-zsh/custom/plugins/zsh-autosuggestions:/home/users/hc387/.oh-my-zsh/plugins/npm:/home/users/hc387/.oh-my-zsh/plugins/ruby:/home/users/hc387/.oh-my-zsh/plugins/rbenv:/home/users/hc387/.oh-my-zsh/plugins/rake:/home/users/hc387/.oh-my-zsh/plugins/dotenv:/home/users/hc387/.oh-my-zsh/plugins/bundler:/home/users/hc387/.oh-my-zsh/plugins/git:/home/users/hc387/.oh-my-zsh/functions:/home/users/hc387/.oh-my-zsh/completions:/home/users/hc387/.oh-my-zsh/custom/functions:/home/users/hc387/.oh-my-zsh/custom/completions:/home/users/hc387/.oh-my-zsh/cache/completions:/usr/share/modules/init/zsh-functions:/usr/local/share/zsh/site-functions:/usr/share/zsh/vendor-functions:/usr/share/zsh/vendor-completions:/usr/share/zsh/functions/Calendar:/usr/share/zsh/functions/Chpwd:/usr/share/zsh/functions/Completion:/usr/share/zsh/functions/Completion/AIX:/usr/share/zsh/functions/Completion/BSD:/usr/share/zsh/functions/Completion/Base:/usr/share/zsh/functions/Completion/Cygwin:/usr/share/zsh/functions/Completion/Darwin:/usr/share/zsh/functions/Completion/Debian:/usr/share/zsh/functions/Completion/Linux:/usr/share/zsh/functions/Completion/Mandriva:/usr/share/zsh/functions/Completion/Redhat:/usr/share/zsh/functions/Completion/Solaris:/usr/share/zsh/functions/Completion/Unix:/usr/share/zsh/functions/Completion/X:/usr/share/zsh/functions/Completion/Zsh:/usr/share/zsh/functions/Completion/openSUSE:/usr/share/zsh/functions/Exceptions:/usr/share/zsh/functions/MIME:/usr/share/zsh/functions/Math:/usr/share/zsh/functions/Misc:/usr/share/zsh/functions/Newuser:/usr/share/zsh/functions/Prompts:/usr/share/zsh/functions/TCP:/usr/share/zsh/functions/VCS_Info:/usr/share/zsh/functions/VCS_Info/Backends:/usr/share/zsh/functions/Zftp:/usr/share/zsh/functions/Zle
-SLURM_JOB_START_TIME=1731051862
-HYDRA_LAUNCHER_EXTRA_ARGS=--external-launcher
-SLURM_CLUSTER_NAME=compsci_cluster
-SLURM_JOB_END_TIME=1731656662
-SLURM_CPUS_ON_NODE=30
-SLURM_JOB_CPUS_PER_NODE=30
-SLURM_GPUS_ON_NODE=1
-PRTE_MCA_plm_slurm_args=--external-launcher
-PWD=/usr/project/xtmp/hc387/ai_reviewer/LitSearch/eval/full_index
-SLURM_GTIDS=0
-LOGNAME=hc387
-CONDA_ROOT=/home/users/hc387/miniconda3
-XDG_SESSION_TYPE=tty
-CONDA_PREFIX=/home/users/hc387/miniconda3
-SLURM_JOB_PARTITION=compsci-gpu
-MODULESHOME=/usr/share/modules
-MANPATH=:/auto/pkg/local/man
-SLURM_TRES_PER_TASK=cpu=30
-SLURM_JOB_NUM_NODES=1
-VSCODE_GIT_ASKPASS_NODE=/home/users/hc387/.vscode-server/cli/servers/Stable-65edc4939843c90c34d61f4ce11704f09d3e5cb6/server/node
-SLURM_JOBID=5497275
-SLURM_JOB_QOS=normal
-I_MPI_HYDRA_BOOTSTRAP_EXEC_EXTRA_ARGS=--external-launcher
-MOTD_SHOWN=pam
-VSCODE_INJECTION=1
-HOME=/home/users/hc387
-LANG=en_US.UTF-8
-LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:
-SLURM_PROCID=0
-PYTHONSTARTUP=/home/users/hc387/.vscode-server/extensions/ms-python.python-2024.18.0-linux-x64/python_files/pythonrc.py
-SSL_CERT_DIR=/usr/lib/ssl/certs
-CONDA_PROMPT_MODIFIER=(base) 
-TMPDIR=/tmp
-GIT_ASKPASS=/home/users/hc387/.vscode-server/cli/servers/Stable-65edc4939843c90c34d61f4ce11704f09d3e5cb6/server/extensions/git/dist/askpass.sh
-SLURM_CPUS_PER_TASK=30
-SLURM_NTASKS=1
-SLURM_TOPOLOGY_ADDR=compsci-cluster-fitz-05
-SSH_CONNECTION=10.197.9.216 54338 152.3.143.21 22
-HYDRA_BOOTSTRAP=slurm
-VSCODE_GIT_ASKPASS_EXTRA_ARGS=
-SLURM_TOPOLOGY_ADDR_PATTERN=node
-CUDA_VISIBLE_DEVICES=0
-XDG_SESSION_CLASS=user
-SLURM_MEM_PER_NODE=307200
-TERM=xterm-256color
-ZSH=/home/users/hc387/.oh-my-zsh
-_CE_CONDA=
-ZDOTDIR=/tmp/hc387-code-zsh
-USER=hc387
-SLURM_NODELIST=compsci-cluster-fitz-05
-VSCODE_GIT_IPC_HANDLE=/run/user/1526779/vscode-git-6fba0c417c.sock
-ENVIRONMENT=BATCH
-CONDA_SHLVL=3
-LOADEDMODULES=
-SLURM_JOB_ACCOUNT=users
-SLURM_PRIO_PROCESS=0
-SLURM_NPROCS=1
-SHLVL=3
-SLURM_NNODES=1
-PAGER=less
-XDG_SESSION_ID=87179
-SLURM_SUBMIT_HOST=compsci-login-03
-CONDA_PYTHON_EXE=/home/users/hc387/miniconda3/bin/python
-XDG_RUNTIME_DIR=/run/user/1526779
-SLURM_JOB_ID=5497275
-SSL_CERT_FILE=/usr/lib/ssl/certs/ca-certificates.crt
-SLURM_NODEID=0
-SSH_CLIENT=10.197.9.216 54338 22
-CONDA_DEFAULT_ENV=base
-LC_ALL=en_US.UTF-8
-VSCODE_GIT_ASKPASS_MAIN=/home/users/hc387/.vscode-server/cli/servers/Stable-65edc4939843c90c34d61f4ce11704f09d3e5cb6/server/extensions/git/dist/askpass-main.js
-XDG_DATA_DIRS=/usr/local/share:/usr/share:/var/lib/snapd/desktop
-SLURM_CONF=/var/lib/slurm/slurmd/conf-cache/slurm.conf
-BROWSER=/home/users/hc387/.vscode-server/cli/servers/Stable-65edc4939843c90c34d61f4ce11704f09d3e5cb6/server/bin/helpers/browser.sh
-PATH=/home/users/hc387/.vscode-server/cli/servers/Stable-65edc4939843c90c34d61f4ce11704f09d3e5cb6/server/bin/remote-cli:/home/users/hc387/miniconda3/bin:/home/users/hc387/miniconda3/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/auto/pkg/local/bin:/home/users/hc387/.vscode-server/cli/servers/Stable-65edc4939843c90c34d61f4ce11704f09d3e5cb6/server/bin/remote-cli:/home/users/hc387/miniconda3/envs/litsearch/bin:/home/users/hc387/miniconda3/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/auto/pkg/local/bin:/home/users/hc387/.vscode-server/cli/servers/Stable-65edc4939843c90c34d61f4ce11704f09d3e5cb6/server/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/auto/pkg/local/bin
-SLURM_JOB_NAME=full_index
-MODULEPATH=/etc/environment-modules/modules:/usr/share/modules/versions:/usr/share/modules/$MODULE_VERSION/modulefiles:/usr/share/modules/modulefiles:/usr/pkg/environment-modules/modulefiles
-DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1526779/bus
-CONDA_PREFIX_1=/home/users/hc387/miniconda3
-CONDA_PREFIX_2=/home/users/hc387/miniconda3/envs/litsearch
-OMPI_MCA_plm_slurm_args=--external-launcher
-SLURM_JOB_GID=1000000
-OLDPWD=/usr/project/xtmp/hc387/ai_reviewer
-SLURM_JOB_NODELIST=compsci-cluster-fitz-05
-MODULES_CMD=/usr/lib/x86_64-linux-gnu/modulecmd.tcl
-TERM_PROGRAM=vscode
-I_MPI_HYDRA_BOOTSTRAP=slurm
-VSCODE_IPC_HOOK_CLI=/run/user/1526779/vscode-ipc-b5ef947e-d602-4077-90ad-af0b46d13a8e.sock
-_=/usr/bin/env
-/home/users/hc387/miniconda3/envs/litsearch/bin/python
-BertAdapterModel has generative capabilities, as `prepare_inputs_for_generation` is explicitly overwritten. However, it doesn't directly inherit from `GenerationMixin`. From 👉v4.50👈 onwards, `PreTrainedModel` will NOT inherit from `GenerationMixin`, and this model will lose the ability to call `generate` and other related functions.
-  - If you're using `trust_remote_code=True`, you can get rid of this warning by loading the model with an auto class. See https://huggingface.co/docs/transformers/en/model_doc/auto#auto-classes
-  - If you are the owner of the model architecture code, please modify your model class such that it inherits from `GenerationMixin` (after `PreTrainedModel`, otherwise you'll get an exception).
-  - If you are not the owner of the model architecture class, please contact the model code owner to update it.
-Fetching 4 files:   0%|          | 0/4 [00:00<?, ?it/s]Fetching 4 files: 100%|██████████| 4/4 [00:00<00:00, 23899.17it/s]
-Processing all files:   0%|          | 0/913 [00:00<?, ?it/s]Processing all files:   0%|          | 1/913 [1:39:52<1517:59:49, 5992.09s/it]Processing all files:   0%|          | 2/913 [6:14:24<3076:23:53, 12157.01s/it]Processing all files:   0%|          | 3/913 [6:15:14<1675:38:15, 6628.90s/it] Processing all files:   0%|          | 4/913 [6:15:39<1015:23:50, 4021.38s/it]Processing all files:   1%|          | 5/913 [6:16:18<652:07:18, 2585.50s/it] Processing all files:   1%|          | 6/913 [6:16:26<430:34:40, 1709.02s/it]Processing all files:   1%|          | 7/913 [6:16:27<289:35:08, 1150.67s/it]Processing all files:   1%|          | 8/913 [6:16:27<197:11:35, 784.41s/it] Processing all files:   1%|          | 9/913 [6:17:11<138:51:35, 552.98s/it]Processing all files:   1%|          | 10/913 [6:17:12<95:56:58, 382.52s/it]Processing all files:   1%|          | 11/913 [8:33:32<693:45:25, 2768.87s/it]
