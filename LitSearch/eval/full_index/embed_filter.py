@@ -1,4 +1,7 @@
 import os
+import sys
+sys.path.append(os.path.abspath("../../"))
+from utils.utils import load_file_line_by_line
 import ast
 import torch
 import torch.nn.functional as F
@@ -9,14 +12,6 @@ from pathlib import Path
 from tqdm import tqdm
 import multiprocessing
 import time
-
-def load_file_line_by_line(file_path):
-    '''
-    return an iterable file
-    '''
-    with open(file_path, 'r') as f:
-        for line in f:
-            yield json.loads(line)
 
 class EmbeddingFilter:
     def __init__(self, seeds: torch.Tensor, input_folder: str, output_folder: str):
