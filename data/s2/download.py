@@ -12,7 +12,7 @@ import threading
 # Constants
 
 headers = {
-    'x-api-key': 'PB2IUQCkgU7VqjOeJ1v7W3h688WDRxrnaialTY1q',
+    'x-api-key': '',
     'Accept': 'application/json'
 }
 # List of dataset endpoints

@@ -50,7 +50,7 @@ class SPECTER2(KVStore):
         if self.save_as_tensor:
             inner_product = F.cosine_similarity(self.encoded_keys, encoded_query)
             _, top_indices = torch.topk(inner_product, n)
-            return top_indices
+            return _, top_indices
 
         cosine_similarities = cosine_similarity([encoded_query], self.encoded_keys)[0]
         top_indices = cosine_similarities.argsort()[-n:][::-1]

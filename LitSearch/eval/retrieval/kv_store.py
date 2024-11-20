@@ -47,13 +47,16 @@ class KVStore:
         if self.save_as_tensor:
             self.encoded_keys = torch.stack(self.encoded_keys)
 
-    def query(self, query_text: str, n: int, return_keys: bool = False) -> List[Any]:
+    def query(self, query_text: str, n: int, return_keys: bool = False, return_sim_score: bool = False) -> List[Any]:
         encoded_query = self._encode(query_text, TextType.QUERY)
-        indices = self._query(encoded_query, n)
+        sim_scores, indices = self._query(encoded_query, n)
         if return_keys:
             results = [(self.keys[i], self.values[i]) for i in indices]
         else:
             results = [self.values[i] for i in indices]
+            
+        if return_sim_score:
+            return sim_scores, results
         return results
 
     def save(self, dir_name: str) -> None:

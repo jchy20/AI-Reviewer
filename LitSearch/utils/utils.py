@@ -230,3 +230,11 @@ def batch_iterator(data, batch_size):
 
 def concat_title_abstract(data: list, tokenizer: PreTrainedTokenizer) -> list:
     return [d['title'] + tokenizer.sep_token + (d.get('abstract') or '') for d in data]
+
+def load_file_line_by_line(file_path):
+    '''
+    return an iterable file
+    '''
+    with open(file_path, 'r') as f:
+        for line in f:
+            yield json.loads(line)

@@ -3,10 +3,10 @@
 #SBATCH --output=output_%j.txt
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=30
-#SBATCH --mem=300G
+#SBATCH --mem=500G
 #SBATCH --time=7-00:00:00
 #SBATCH --partition=compsci-gpu
-#SBATCH --gres=gpu:a6000:1
+#SBATCH --gres=0
 #SBATCH --mail-type=END,FAIL
 #SBATCH --mail-user=hc387@duke.edu
 
@@ -24,4 +24,4 @@ which python
 # Navigate to the directory containing the Python script (if it's not in the home directory)
 cd /usr/project/xtmp/hc387/ai_reviewer/LitSearch/eval/full_index
 
-python full_index.py
+python combineFiles.py

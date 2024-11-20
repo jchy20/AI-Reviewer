@@ -93,7 +93,7 @@ class S2Download():
 
 endpoint = 'https://api.semanticscholar.org/datasets/v1/release/2024-11-12/dataset/embeddings-specter_v2'
 headers = {
-    'x-api-key': 'PB2IUQCkgU7VqjOeJ1v7W3h688WDRxrnaialTY1q',
+    'x-api-key': '',
     'Accept': 'application/json'
 }
 category = 'embeddings_v2'
