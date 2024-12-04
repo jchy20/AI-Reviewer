@@ -32,12 +32,13 @@ class CombineFiles:
         self.logger = logging.getLogger(__name__)
 
     def merge_main(self, file_path, lock):
+        count = 0
         for item in utils.load_file_line_by_line(file_path):
             try:
                 corpusid = item['corpusid']
 
                 if str(corpusid) in self.main_dict:
-                    
+                    count+=1
                     update_dict = {}
                     #template for updating embeddings
                     if re.search('embeddings', str(file_path), re.IGNORECASE):
@@ -66,6 +67,7 @@ class CombineFiles:
 
             except Exception as exc:
                 self.logger.error(f"Error in file {file_path}: {exc}", exc_info=True)
+        self.logger.info(f"{file_path.stem} has {count} matching records")
 
     def merge_main_all(self):
         lock = Lock()
@@ -139,11 +141,11 @@ class CombineFiles:
                 future.result()
 
 
-abs = '/usr/xtmp/hc387/ai_reviewer/data/s2/2024-11-12/abstracts'
+abs = '/usr/xtmp/hc387/ai_reviewer/data/s2/2024-10-8/abstracts'
 emb = '/usr/xtmp/hc387/ai_reviewer/LitSearch/eval/full_index/filtered_embeddings'
-pap = '/usr/xtmp/hc387/ai_reviewer/data/s2/2024-11-12/papers'
-papid = '/usr/xtmp/hc387/ai_reviewer/data/s2/2024-11-12/paper_ids'
-out = '/usr/xtmp/hc387/ai_reviewer/LitSearch/eval/full_index/ready2index'
+pap = '/usr/xtmp/hc387/ai_reviewer/data/s2/2024-10-8/papers'
+papid = '/usr/xtmp/hc387/ai_reviewer/data/s2/2024-10-8/paper_ids'
+out = '/usr/xtmp/hc387/ai_reviewer/LitSearch/eval/full_index/ready2index_2'
 main_dict_path = '/usr/xtmp/hc387/ai_reviewer/LitSearch/eval/full_index/sorted_k_corpusid.json'
 
 combine = CombineFiles(main_dict_path, emb, pap, abs, papid, out)
