@@ -238,3 +238,51 @@ def load_file_line_by_line(file_path):
     with open(file_path, 'r') as f:
         for line in f:
             yield json.loads(line)
+
+##### semantic scholar batch query processing #####
+def extract_paper_fields(json_string):
+    """
+    Extracts fields for each paper from a JSON string.
+
+    Parameters:
+        json_string (str): The input JSON string containing paper data.
+
+    Returns:
+        list: A list of dictionaries with extracted fields.
+    """
+    try:
+        # Parse the JSON string
+        papers = json.loads(json_string)
+        
+        # Extract relevant fields
+        extracted_data = []
+        for paper in papers:
+            # Skip None or invalid entries
+            if not isinstance(paper, dict):
+                continue
+            
+            # Safely get the embedding vector
+            embedding_data = paper.get("embedding", {})
+            if not isinstance(embedding_data, dict):
+                embedding_data = {}
+            raw_vector = embedding_data.get("vector", "[]")
+            
+            try:
+                vector = json.loads(raw_vector) if isinstance(raw_vector, str) else raw_vector
+            except json.JSONDecodeError:
+                vector = []
+            
+            # Append the processed data
+            extracted_data.append({
+                "paperId": paper.get("paperId", "N/A"),
+                "corpusid": paper.get("corpusId", "N/A"),
+                "title": paper.get("title", "N/A"),
+                "abstract": paper.get("abstract", "N/A"),
+                "publicationDate": paper.get("publicationDate", "N/A"),
+                "embedding": vector
+            })
+        
+        return extracted_data
+    except json.JSONDecodeError as e:
+        print("Invalid JSON string:", e)
+        return []
